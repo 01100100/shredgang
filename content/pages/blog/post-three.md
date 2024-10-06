@@ -15,39 +15,7 @@ backgroundImage:
   backgroundPosition: center
   backgroundRepeat: no-repeat
   opacity: 10
-bottomSections:
-  - elementId: ''
-    type: RecentPostsSection
-    colors: colors-f
-    variant: variant-d
-    subtitle: Recent posts
-    showDate: true
-    showAuthor: false
-    showExcerpt: true
-    recentCount: 2
-    styles:
-      self:
-        height: auto
-        width: wide
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
-        padding:
-          - pt-12
-          - pb-56
-          - pr-4
-          - pl-4
-        justifyContent: center
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
-      actions:
-        justifyContent: center
-    showFeaturedImage: true
-    showReadMoreLink: true
+bottomSections: []
 author: content/data/team/dave.json
 ---
 Last week I found myself in Bolzano, ready to start a bikepacking expedition with a group of people who shared my passion for riding bikes and had signed up for a big tour through the Dolomites. I didn’t question why they were there - it made perfect sense to me. What fascinated me more was the diversity of the riders, each coming from a completely different background. I met young riders, old riders, riders with no hair, riders with too much. Doctors, art dealers, students - people from all walks of life. Some had ultra-light setups with zero sleeping gear except for an emergency blanket, others were on old bikes loaded with bags full of tools for every possible situation, and some simply came with the mindset that they’d finish no matter what, regardless of gear or the condition of their bike. Someone even brought an old 26" MTB with rim brakes.
