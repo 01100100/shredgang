@@ -5,9 +5,10 @@ colors: colors-a
 date: '2022-01-22'
 client: Awesome client
 description: >-
-  It’s hard to imagine that I’ve that I wrote all this code by myself, probably
-  because I worked with an entire team :) but they definitely followed my lead
-  most of the time.
+  An invitation to embark on an adventure, where you decide how it looks like.
+  We will give you the start, and the checkpoints - in between it’s up to you.
+  Make it a gravel-race, a bike-packing adventure, make it mountain biking shred
+  fest or stay on the road. Celebrate the path taken 
 featuredImage:
   type: ImageBlock
   url: /images/bg3.jpg
