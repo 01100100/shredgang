@@ -8,7 +8,7 @@ description: >-
   An invitation to embark on an adventure, where you decide how it looks like.
   We will give you the start, and the checkpoints - in between it’s up to you.
   Make it a gravel-race, a bike-packing adventure, make it mountain biking shred
-  fest or stay on the road. Celebrate the path taken 
+  fest or stay on the road. Celebrate the path taken
 featuredImage:
   type: ImageBlock
   url: /images/bg3.jpg
