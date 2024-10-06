@@ -4,7 +4,9 @@ title: Winter Gravel Alley Cat Series
 colors: colors-a
 date: '2021-12-20'
 client: Awesome client
-description: 'Get muddy on a treasure hunt through Brandenburgs finest forests. '
+description: >-
+  Get muddy on a treasure hunt through Brandenburgs finest forests. It's the
+  season to take your freinds and get wild.
 featuredImage:
   type: ImageBlock
   url: /images/bg2.jpg
