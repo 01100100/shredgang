@@ -17,13 +17,6 @@
         "socialLinks": [
             {
                 "type": "Social",
-                "altText": "GitHub",
-                "label": "GitHub",
-                "url": "https://github.com/netlify-templates",
-                "icon": "github"
-            },
-            {
-                "type": "Social",
                 "label": "Facebook",
                 "altText": "",
                 "url": "https://instagram.com/shredgang.cc",
