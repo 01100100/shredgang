@@ -4,7 +4,7 @@ title: '**COMING SOON**'
 colors: colors-a
 date: '2021-10-15'
 client: Awesome client
-description: Something special is just around the corner
+description: "Something special is just around the corner \U0001F609"
 featuredImage:
   type: ImageBlock
   url: /images/bg1.jpg
