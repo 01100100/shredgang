@@ -1,7 +1,7 @@
 {
     "type": "Person",
     "firstName": "Dave",
-    "lastName": "Soto",
+    "lastName": "Whittingham",
     "image": {
         "type": "ImageBlock",
         "url": "/images/about.jpg",
