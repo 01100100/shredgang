@@ -59,7 +59,7 @@ sections:
     elementId: ''
     actions:
       - type: Link
-        label: See all projects
+        label: See all Event
         url: /projects
     showDate: false
     showDescription: true
