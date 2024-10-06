@@ -1,11 +1,12 @@
 ---
 type: ProjectLayout
-title: Another cool project
+title: Winter Gravel Alley Cat Series
 colors: colors-a
-date: '2021-12-20'
-client: Awesome client
+date: '2024-12-17'
+client: ''
 description: >-
-  It’s hard to imagine that I’ve that I wrote all this code by myself, probably because I worked with an entire team :) but they definitely followed my lead most of the time.
+  Get muddy on a treasure hunt through Brandenburgs finest forests. Shred season
+  is soon here, take your friends and get wild. There will be surprises  ✨
 featuredImage:
   type: ImageBlock
   url: /images/bg2.jpg
