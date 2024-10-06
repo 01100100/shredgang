@@ -17,7 +17,7 @@ sections:
     subtitle: The Shredvolution will not be televised
     styles:
       self:
-        height: auto
+        height: screen
         width: wide
         margin:
           - mt-0
