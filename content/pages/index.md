@@ -47,6 +47,10 @@ sections:
       Ride hard, laugh louder, and conquer both the streets and trails as one.
       Embrace the thrill, push your limits, and let every ride become an
       unforgettable part of a journey.
+
+
+      The Shred Gang is a gathering of riders in Berlin. Join us, it might be
+      fun.
   - colors: colors-f
     type: FeaturedProjectsSection
     elementId: ''
