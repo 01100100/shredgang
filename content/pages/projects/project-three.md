@@ -2,7 +2,7 @@
 type: ProjectLayout
 title: Shred2Bohemia
 colors: colors-a
-date: '2024-10-22'
+date: '2024-09-22'
 client: ''
 description: >-
   An invitation to embark on an adventure, where you decide how it looks like.
