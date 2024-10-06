@@ -14,7 +14,7 @@ sections:
     colors: colors-f
     backgroundSize: full
     title: Are you Shready..?
-    subtitle: Join the
+    subtitle: Join the shredvolution and
     styles:
       self:
         height: auto
