@@ -3,7 +3,6 @@ type: PostLayout
 title: SneakPeaks - My Recap
 colors: colors-b
 date: '2024-09-23'
-author: content/data/team/doris-soto.json
 excerpt: More context that may or may not be helpful
 featuredImage:
   type: ImageBlock
