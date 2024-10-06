@@ -124,8 +124,7 @@ sections:
         justifyContent: flex-end
   - type: ContactSection
     title: Contact Us
-    text: |
-      We look forward to hearing from you.
+    text: "We look forward to hearing from you ❤️‍\U0001F525\n"
     form:
       type: FormBlock
       title: Title of the form
