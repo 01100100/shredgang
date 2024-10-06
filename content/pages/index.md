@@ -49,8 +49,8 @@ sections:
       unforgettable part of a journey.
 
 
-      The Shred Gang is a gathering of riders in Berlin. Join us, it might be
-      fun.
+      The Shred Gang is a gathering of passionate riders in Berlin who unite
+      over Shred.
   - colors: colors-f
     type: FeaturedProjectsSection
     elementId: ''
