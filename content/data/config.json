@@ -65,7 +65,7 @@
         "contacts": {
             "type": "ContactBlock",
             "title": "Contact details",
-            "phoneNumber": "",
+            "phoneNumber": "x",
             "phoneAltText": "My phone number",
             "email": "contact@shredgang.cc",
             "emailAltText": "Contact email",
