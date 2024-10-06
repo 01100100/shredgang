@@ -156,7 +156,7 @@ sections:
           label: "Sign me up to receive updates of shred ❤️‍\U0001F525"
           width: full
           isRequired: 'false'
-      submitLabel: Send Message
+      submitLabel: Send
       elementId: contact-form
       styles:
         submitLabel:
