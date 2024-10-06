@@ -1,6 +1,6 @@
 ---
 type: ProjectFeedLayout
-title: projects
+title: events
 colors: colors-a
 backgroundImage:
   type: BackgroundImage
