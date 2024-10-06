@@ -3,7 +3,7 @@ type: ProjectLayout
 title: Shred2Bohemia
 colors: colors-a
 date: '2022-01-22'
-client: Awesome client
+client: ''
 description: >-
   An invitation to embark on an adventure, where you decide how it looks like.
   We will give you the start, and the checkpoints - in between it’s up to you.
