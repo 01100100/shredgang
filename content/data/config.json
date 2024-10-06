@@ -16,7 +16,7 @@
             {
                 "type": "Link",
                 "label": "Events",
-                "url": "/projects"
+                "url": "/events"
             },
             {
                 "type": "Link",
