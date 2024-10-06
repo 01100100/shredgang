@@ -161,7 +161,7 @@ sections:
       styles:
         submitLabel:
           textAlign: left
-    colors: colors-a
+    colors: colors-f
     backgroundSize: full
     elementId: ''
     styles:
