@@ -57,7 +57,7 @@
             },
             {
                 "type": "Link",
-                "label": "intagram",
+                "label": "instagram",
                 "url": "https://github.com/netlify-templates",
                 "altText": "Netlify templates"
             }
