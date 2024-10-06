@@ -2,7 +2,7 @@
 type: ProjectLayout
 title: '**COMING SOON**'
 colors: colors-a
-date: '2021-10-15'
+date: ''
 client: Awesome client
 description: "Something special is being planned \U0001F609"
 featuredImage:
