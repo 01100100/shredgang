@@ -2,7 +2,7 @@
 type: ProjectLayout
 title: Winter Gravel Alley Cat Series
 colors: colors-a
-date: '2021-12-20'
+date: ''
 client: ''
 description: >-
   Get muddy on a treasure hunt through Brandenburgs finest forests. Shred season
