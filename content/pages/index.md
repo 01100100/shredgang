@@ -42,6 +42,8 @@ sections:
         justifyContent: flex-start
     type: HeroSection
     actions: []
+    text: |
+      Fun on bikes
   - colors: colors-f
     type: FeaturedProjectsSection
     elementId: ''
