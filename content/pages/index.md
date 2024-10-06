@@ -153,7 +153,7 @@ sections:
           isRequired: true
         - type: CheckboxFormControl
           name: updates
-          label: Sign me up to the newsletter
+          label: Sign me up to receive updates
           width: full
           isRequired: 'false'
       submitLabel: Send Message
