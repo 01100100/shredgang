@@ -10,7 +10,7 @@ featuredImage:
   altText: Post thumbnail image
 backgroundImage:
   type: BackgroundImage
-  url: /images/gallery-2.jpg
+  url: /images/dji_mimo_20240612_085436_0_1718815712743_photo-EDIT(1).jpg
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat
