@@ -49,8 +49,11 @@ sections:
       unforgettable part of a journey.
 
 
-      The Shred Gang is a gathering of passionate riders in Berlin who unite
-      over Shred.
+      Shred Gang is a vibrant and diverse community of passionate riders in
+      Berlin, united by our love for shredding.
+
+
+      Join us, it might be fun.
   - colors: colors-f
     type: FeaturedProjectsSection
     elementId: ''
