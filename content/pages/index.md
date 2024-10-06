@@ -12,7 +12,7 @@ backgroundImage:
 sections:
   - elementId: ''
     colors: colors-f
-    backgroundSize: inset
+    backgroundSize: full
     title: Are you Shready..?
     subtitle: The Shredvolution will not be televised
     styles:
