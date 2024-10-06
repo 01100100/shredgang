@@ -49,8 +49,8 @@ sections:
       unforgettable part of a journey.
 
 
-      ### **Shred Gang is a vibrant and diverse community of passionate riders
-      in Berlin, united by our love of Shred.**
+      # ***Shred Gang is a vibrant and diverse community of passionate riders in
+      Berlin, united by our love of Shred.***
 
 
       Join us, it might be fun.
