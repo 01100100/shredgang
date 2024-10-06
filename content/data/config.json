@@ -12,11 +12,6 @@
                 "type": "Link",
                 "label": "Events",
                 "url": "/events"
-            },
-            {
-                "type": "Link",
-                "label": "Blog",
-                "url": "/blog"
             }
         ],
         "socialLinks": [
