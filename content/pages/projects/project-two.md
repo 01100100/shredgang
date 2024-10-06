@@ -5,8 +5,9 @@ colors: colors-a
 date: '2021-12-20'
 client: Awesome client
 description: >-
-  Get muddy on a treasure hunt through Brandenburgs finest forests. It's the
-  season to take your freinds and get wild.
+  Get muddy on a treasure hunt through Brandenburgs finest forests. Shred season
+  is soon here, take your freinds and get wild. There are some suprises in
+  store 
 featuredImage:
   type: ImageBlock
   url: /images/bg2.jpg
