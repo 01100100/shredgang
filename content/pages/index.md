@@ -14,7 +14,7 @@ sections:
     colors: colors-f
     backgroundSize: full
     title: Are you Shready..?
-    subtitle: The Shredvolution will not be televised
+    subtitle: The Shredvolution will not be televised...
     styles:
       self:
         height: auto
