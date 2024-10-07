@@ -43,12 +43,8 @@ sections:
     type: HeroSection
     actions: []
     text: >
-
-
-      Live for speed and adventure. Have fun exploring nature in any weather.
-      Ride hard, laugh louder, and conquer both the streets and trails as one.
-      Embrace the thrill, push your limits, and let every ride become an
-      unforgettable part of a journey.
+      Live for speed and adventure. Explore nature in any weather. Ride hard,
+      laugh louder, and conquer both the streets and trails as one.
 
 
       ***Shred Gang is a vibrant and diverse community of passionate riders in
