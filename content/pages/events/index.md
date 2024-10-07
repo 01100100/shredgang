@@ -13,9 +13,9 @@ projectFeed:
   type: ProjectFeedSection
   colors: colors-f
   showDate: false
-  showDescription: true
-  showReadMoreLink: true
-  showFeaturedImage: true
+  showDescription: false
+  showReadMoreLink: false
+  showFeaturedImage: false
   variant: variant-a
   styles:
     self:
