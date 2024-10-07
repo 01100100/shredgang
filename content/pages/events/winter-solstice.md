@@ -32,5 +32,3 @@ Pack list 🧳
 ---
 
 🧙‍♂️ **Are you ready to embrace the solstice?** 🧙‍♀️
-
-p.s. If you need a gravel bike, let us know and we’ll sort it out!
