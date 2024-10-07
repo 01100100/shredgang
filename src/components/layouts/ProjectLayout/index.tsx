@@ -21,7 +21,7 @@ const Component: React.FC<ComponentProps> = (props) => {
     const { global, ...page } = props;
     const { title, date, client, description, markdownContent, media, prevProject, nextProject, bottomSections = [] } = page;
     const dateTimeAttr = dayjs(date).format('YYYY-MM-DD HH:mm:ss');
-    const formattedDate = dayjs(date).format('MM-DD-YYYY');
+    const formattedDate = dayjs(date).format('YYYY-MM-DD');
 
     return (
         <BaseLayout {...props}>
