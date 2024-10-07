@@ -42,23 +42,32 @@ sections:
         justifyContent: flex-start
     type: HeroSection
     actions: []
-    text: "Live for speed and adventure. Have fun exploring nature in any weather. Ride hard, laugh louder, and conquer both the city streets and distant trails as one. Embrace the thrill, push your limits, and let every ride become an unforgettable part of a journey.\n\n***Shred Gang is a vibrant and diverse community of passionate riders in Berlin, united by our love of Shred.***\n\nJoin us, it might be fun \U0001F919\n"
+    text: >
+      Live for speed and adventure. Explore nature in any weather. Ride hard,
+      laugh louder, and conquer both the streets and trails as one.
+
+
+      ***Shred Gang is a vibrant and diverse community of passionate riders in
+      Berlin, united by our love of Shred.***
+
+
+      Join us, it might be fun.
   - colors: colors-f
     type: FeaturedProjectsSection
     elementId: ''
     actions:
       - type: Link
         label: See all Event
-        url: /events
+        url: /projects
     showDate: false
     showDescription: true
     showFeaturedImage: true
     showReadMoreLink: true
     variant: variant-b
     projects:
-      - content/pages/events/shred2bohemia.md
-      - content/pages/events/winter-solstice.md
-      - content/pages/events/winter-gravel.md
+      - content/pages/projects/project-two.md
+      - content/pages/projects/project-three.md
+      - content/pages/projects/project-one.md
     styles:
       self:
         height: auto
@@ -82,9 +91,9 @@ sections:
         justifyContent: flex-end
     subtitle: Future Events
   - type: ContactSection
-    title: Contact Us
+    title: Stay up-to-date
     text: |
-      We look forward to hearing from you.
+      We will  happily let you know when something is happening
     form:
       type: FormBlock
       title: Title of the form
@@ -103,16 +112,9 @@ sections:
           placeholder: Your email
           width: 1/2
           isRequired: 'true'
-        - type: TextareaFormControl
-          name: message
-          label: Your message...
-          hideLabel: true
-          placeholder: Your message...
-          width: full
-          isRequired: true
         - type: CheckboxFormControl
           name: updates
-          label: "Sign me up to receive updates of shred ❤️‍\U0001F525"
+          label: "Sign me up for updates of shred ❤️‍\U0001F525"
           width: full
           isRequired: 'false'
       submitLabel: Send
@@ -140,5 +142,4 @@ sections:
         textAlign: center
       text:
         textAlign: center
-socialImage: /images/android-chrome-512x512.png
 ---
