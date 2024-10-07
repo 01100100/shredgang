@@ -93,7 +93,7 @@ sections:
   - type: ContactSection
     title: Stay up-to-date
     text: |
-      We look tell you when we plan something...
+      We will  happily let you know when something is happening
     form:
       type: FormBlock
       title: Title of the form
