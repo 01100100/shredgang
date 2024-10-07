@@ -91,7 +91,7 @@ sections:
         justifyContent: flex-end
     subtitle: Future Events
   - type: ContactSection
-    title: Contact Us
+    title: Stay up-to-date
     text: |
       We look forward to hearing from you.
     form:
