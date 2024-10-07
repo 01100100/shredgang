@@ -62,16 +62,16 @@ sections:
     actions:
       - type: Link
         label: See all Event
-        url: /projects
+        url: /events
     showDate: false
     showDescription: true
     showFeaturedImage: true
     showReadMoreLink: true
     variant: variant-b
     projects:
-      - content/pages/projects/project-two.md
-      - content/pages/projects/project-three.md
-      - content/pages/projects/project-one.md
+      - content/pages/events/shred2bohemia.md
+      - content/pages/events/winter-soltice.md
+      - content/pages/events/winter-gravel.md
     styles:
       self:
         height: auto

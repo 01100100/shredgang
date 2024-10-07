@@ -1,8 +1,8 @@
 ---
 type: ProjectLayout
-title: '**COMING SOON**'
+title: 'Winter Soltice'
 colors: colors-a
-date: ''
+date: '2024-12-21'
 client: ''
 description: "Something special is being planned \U0001F609"
 featuredImage:
