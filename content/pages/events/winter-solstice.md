@@ -21,16 +21,10 @@ media:
 
 We'll ride through the shortest day and warm up by a fire in a cabin 🛖🔥 We stay overnight before returning to Berlin by train 🚆 on Sunday evening.
 
----
-
 Pack list 🧳
 
     1 x Gravel Bike 🚲
     1 x Winter spirit ❄️🧘‍♂️
     1 x (optional) festive extras 🎄
 
----
-
 🧙‍♂️ **Are you ready to embrace the solstice?** 🧙‍♀️
-
-p.s. If you need a gravel bike, let us know and we’ll sort it out!
