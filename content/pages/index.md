@@ -112,13 +112,6 @@ sections:
           placeholder: Your email
           width: 1/2
           isRequired: 'true'
-        - type: TextareaFormControl
-          name: message
-          label: Your message...
-          hideLabel: true
-          placeholder: Your message...
-          width: full
-          isRequired: true
         - type: CheckboxFormControl
           name: updates
           label: "Sign me up for updates of shred ❤️‍\U0001F525"
