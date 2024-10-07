@@ -3,14 +3,14 @@
     "favicon": "/images/bg1.jpg",
     "header": {
         "type": "Header",
-        "headerVariant": "variant-c",
+        "headerVariant": "variant-b",
         "isSticky": false,
-        "title": "",
-        "isTitleVisible": false,
+        "title": "Shred Gang",
+        "isTitleVisible": true,
         "primaryLinks": [
             {
                 "type": "Link",
-                "label": "Events",
+                "label": "Events 🗓️",
                 "url": "/events"
             }
         ],
@@ -28,6 +28,12 @@
             "self": {
                 "width": "full"
             }
+        },
+        "logo": {
+            "type": "ImageBlock",
+            "altText": "Shred Emoji",
+            "caption": "Shred",
+            "elementId": ""
         }
     },
     "footer": {

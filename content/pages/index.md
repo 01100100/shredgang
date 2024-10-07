@@ -42,20 +42,7 @@ sections:
         justifyContent: flex-start
     type: HeroSection
     actions: []
-    text: >
-
-
-      Live for speed and adventure. Have fun exploring nature in any weather.
-      Ride hard, laugh louder, and conquer both the streets and trails as one.
-      Embrace the thrill, push your limits, and let every ride become an
-      unforgettable part of a journey.
-
-
-      ***Shred Gang is a vibrant and diverse community of passionate riders in
-      Berlin, united by our love of Shred.***
-
-
-      Join us, it might be fun.
+    text: "Live for speed and adventure. Have fun exploring nature in any weather. Ride hard, laugh louder, and conquer both the city streets and distant trails as one. Embrace the thrill, push your limits, and let every ride become an unforgettable part of a journey.\n\n***Shred Gang is a vibrant and diverse community of passionate riders in Berlin, united by our love of Shred.***\n\nJoin us, it might be fun \U0001F919\n"
   - colors: colors-f
     type: FeaturedProjectsSection
     elementId: ''
@@ -70,7 +57,7 @@ sections:
     variant: variant-b
     projects:
       - content/pages/events/shred2bohemia.md
-      - content/pages/events/winter-soltice.md
+      - content/pages/events/winter-solstice.md
       - content/pages/events/winter-gravel.md
     styles:
       self:
@@ -153,4 +140,5 @@ sections:
         textAlign: center
       text:
         textAlign: center
+socialImage: /images/android-chrome-512x512.png
 ---
