@@ -93,7 +93,7 @@ sections:
   - type: ContactSection
     title: Stay up-to-date
     text: |
-      We look forward to hearing from you.
+      We look tell you when we plan something...
     form:
       type: FormBlock
       title: Title of the form
