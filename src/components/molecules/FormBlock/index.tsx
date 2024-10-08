@@ -45,7 +45,6 @@ export default function FormBlock(props) {
             id={elementId}
             onSubmit={handleSubmit}
             ref={formRef}
-            data-netlify="true"
         >
             <input type="hidden" name="form-name" value={elementId} />
             <div className="grid sm:grid-cols-2 sm:gap-x-4">
