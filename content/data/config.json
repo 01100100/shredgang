@@ -43,13 +43,17 @@
                 "type": "Link",
                 "label": "strava Club",
                 "url": "https://www.strava.com/clubs/shredgang",
-                "altText": "Strava link"
+                "altText": "Strava link",
+                "showIcon": true,
+                "icon": "playCircle"
             },
             {
                 "type": "Link",
                 "label": "instagram",
                 "url": "https://www.instagram.com/shredgang.cc/",
-                "altText": "instagram link"
+                "altText": "instagram link",
+                "showIcon": true,
+                "icon": "instagram"
             }
         ],
         "contacts": {
@@ -67,8 +71,8 @@
             "self": {
                 "width": "narrow",
                 "padding": [
-                    "pt-16",
-                    "pb-16",
+                    "pt-0",
+                    "pb-10",
                     "pr-4",
                     "pl-4"
                 ]

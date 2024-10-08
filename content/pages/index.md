@@ -26,7 +26,7 @@ sections:
           - mr-0
         padding:
           - pt-36
-          - pb-10
+          - pb-0
           - pl-4
           - pr-4
         alignItems: center
@@ -43,6 +43,19 @@ sections:
     type: HeroSection
     actions: []
     text: "Live for speed and adventure. Have fun exploring nature in any weather. Ride hard, laugh louder, and conquer both the city streets and distant trails as one. Embrace the thrill, push your limits, and let every ride become an unforgettable part of a journey.\n\n***Shred Gang is a vibrant and diverse community of passionate riders in Berlin, united by our love of Shred.***\n\nJoin us, it might be fun \U0001F919\n"
+  - type: DividerSection
+    title: Divider
+    elementId: ''
+    styles:
+      self:
+        width: wide
+        padding:
+          - pt-0
+          - pb-0
+          - pl-4
+          - pr-4
+        justifyContent: center
+        borderWidth: 1
   - colors: colors-f
     type: FeaturedProjectsSection
     elementId: ''
@@ -50,15 +63,17 @@ sections:
       - type: Link
         label: See all Event
         url: /events
-    showDate: false
+        showIcon: true
+        icon: arrowRightCircle
+    showDate: true
     showDescription: true
     showFeaturedImage: true
     showReadMoreLink: true
-    variant: variant-b
+    variant: variant-d
     projects:
-      - content/pages/events/shred2bohemia.md
-      - content/pages/events/winter-solstice.md
       - content/pages/events/winter-gravel.md
+      - content/pages/events/winter-solstice.md
+      - content/pages/events/shred2bohemia.md
     styles:
       self:
         height: auto
@@ -69,22 +84,37 @@ sections:
           - ml-0
           - mr-0
         padding:
-          - pt-14
-          - pb-24
+          - pt-10
+          - pb-10
           - pl-4
           - pr-4
         justifyContent: center
+        borderWidth: 1
+        borderStyle: none
       title:
         textAlign: left
       subtitle:
         textAlign: left
       actions:
         justifyContent: flex-end
-    subtitle: Future Events
+    subtitle: "Upcoming Events \U0001F5D3️"
+  - type: DividerSection
+    title: Divider
+    elementId: ''
+    styles:
+      self:
+        width: wide
+        padding:
+          - pt-0
+          - pb-0
+          - pl-4
+          - pr-4
+        justifyContent: center
+        borderWidth: 1
   - type: ContactSection
-    title: Contact Us
+    title: Stay in the loop
     text: |
-      We look forward to hearing from you.
+      We will share the Shred when we can.
     form:
       type: FormBlock
       title: Title of the form
@@ -103,19 +133,7 @@ sections:
           placeholder: Your email
           width: 1/2
           isRequired: 'true'
-        - type: TextareaFormControl
-          name: message
-          label: Your message...
-          hideLabel: true
-          placeholder: Your message...
-          width: full
-          isRequired: true
-        - type: CheckboxFormControl
-          name: updates
-          label: "Sign me up to receive updates of shred ❤️‍\U0001F525"
-          width: full
-          isRequired: 'false'
-      submitLabel: Send
+      submitLabel: "Sign me up to receive updates of shred ❤️‍\U0001F525"
       elementId: contact-form
       styles:
         submitLabel:
@@ -136,6 +154,8 @@ sections:
         justifyContent: center
         flexDirection: row
         borderStyle: dashed
+        borderWidth: 0
+        borderRadius: none
       title:
         textAlign: center
       text:

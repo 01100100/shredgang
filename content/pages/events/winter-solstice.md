@@ -1,10 +1,12 @@
 ---
 type: ProjectLayout
-title: 'Winter Solstice'
+title: Winter Solstice
 colors: colors-a
 date: '2024-12-21'
 client: ''
-description: "The days grow shorter and the cold deepens, let’s ride into the heart of winter ❄️🌲✨"
+description: >-
+  The days grow shorter and the cold deepens, let’s ride into the heart of
+  winter ❄️
 featuredImage:
   type: ImageBlock
   url: /images/bg1.jpg

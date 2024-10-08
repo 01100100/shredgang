@@ -4,10 +4,12 @@ title: Shredaholics Anonymous Winter Gravel Alley Cat
 colors: colors-a
 date: '2024-12-17'
 client: ''
-description: "Get muddy on a treasure hunt through Brandenburgs finest forests. Shred season is soon here, take your friends and get wild. There will be surprises  ✨"
+description: >-
+  Get muddy on a treasure hunt through Brandenburgs finest forests. Shred season
+  is soon here, take your friends and get wild. There will be surprises  ✨
 featuredImage:
   type: ImageBlock
-  url: /images/bg2.jpg
+  url: /images/featured-Image5.jpg
   altText: Project thumbnail image
 media:
   type: ImageBlock
