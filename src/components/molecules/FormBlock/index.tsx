@@ -12,20 +12,12 @@ export default function FormBlock(props) {
         return null;
     }
 
-    function handleSubmit(event) {
-        event.preventDefault();
-
-        const data = new FormData(formRef.current);
-        const value = Object.fromEntries(data.entries());
-        alert(`Form data: ${JSON.stringify(value)}`);
-    }
-
     return (
         <form
             className={classNames('sb-component', 'sb-component-block', 'sb-component-form-block', className)}
             name={elementId}
             id={elementId}
-            onSubmit={handleSubmit}
+            data-netlify="true"
             ref={formRef}
         >
             <div className="grid sm:grid-cols-2 sm:gap-x-4">
