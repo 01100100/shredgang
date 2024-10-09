@@ -45,7 +45,7 @@
                 "url": "https://www.strava.com/clubs/shredgang",
                 "altText": "Strava link",
                 "showIcon": true,
-                "icon": "playCircle"
+                "icon": "strava"
             },
             {
                 "type": "Link",

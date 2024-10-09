@@ -21,6 +21,7 @@ import Send from './send';
 import Twitter from './twitter';
 import Vimeo from './vimeo';
 import YouTube from './youtube';
+import Strava from './strava';
 
 export const iconMap = {
     apple: Apple,
@@ -43,6 +44,7 @@ export const iconMap = {
     playCircle: PlayCircle,
     reddit: Reddit,
     send: Send,
+    strava: Strava,
     twitter: Twitter,
     vimeo: Vimeo,
     youtube: YouTube
