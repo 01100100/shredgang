@@ -40,13 +40,13 @@ export default function FormBlock(props) {
     return (
         <form
             className={classNames('sb-component', 'sb-component-block', 'sb-component-form-block', className)}
-            name={elementId}
-            id={elementId}
+            name="signup"
+            id="signup"
             onSubmit={handleSubmit}
             ref={formRef}
             data-netlify="true"
         >
-            <input type="hidden" name="form-name" value={elementId} />
+            <input type="hidden" name="form-name" value="signup" />
             <div className="grid sm:grid-cols-2 sm:gap-x-4">
                 {fields.map((field, index) => {
                     return <DynamicComponent key={index} {...field} />;
