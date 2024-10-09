@@ -20,7 +20,7 @@ export default function FormBlock(props) {
                 throw new Error('Form reference is not assigned');
             }
             const data = new FormData(formRef.current);
-            const res = await fetch('/', {
+            const res = await fetch('/__forms.html', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
                 body: new URLSearchParams(data as any).toString()
