@@ -134,7 +134,6 @@ module.exports = {
                     letterSpacing: theme(`letterSpacing.${themeStyle.buttonPrimary.letterSpacing}`),
                     padding: `${themeStyle.buttonPrimary.verticalPadding}px ${themeStyle.buttonPrimary.horizontalPadding}px`,
                     textTransform: themeStyle.buttonPrimary.case,
-                    left: '25%',
                 },
                 '.sb-component-button-primary.sb-component-button-icon': {
                     padding: `${themeStyle.buttonPrimary.verticalPadding}px`
