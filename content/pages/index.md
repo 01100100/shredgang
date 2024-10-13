@@ -160,5 +160,6 @@ sections:
         textAlign: center
       text:
         textAlign: center
-socialImage: /images/android-chrome-512x512.png
+socialImage: /images/shredish.webp
+metaDescription: "Are you Shready..? \U0001F919"
 ---
