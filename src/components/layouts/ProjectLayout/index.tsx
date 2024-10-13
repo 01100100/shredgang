@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { useEffect, useState } from 'react';
 import dayjs from 'dayjs';
 import Markdown from 'markdown-to-jsx';
 import classNames from 'classnames';
@@ -10,18 +11,30 @@ import ImageBlock from '../../molecules/ImageBlock';
 import Link from '../../atoms/Link';
 import { Annotated } from '@/components/Annotated';
 import { PageComponentProps, ProjectLayout } from '@/types';
+import { AddToCalendarButton } from 'add-to-calendar-button-react';
 
 type ComponentProps = PageComponentProps &
     ProjectLayout & {
         prevProject?: ProjectLayout;
         nextProject?: ProjectLayout;
     };
-
 const Component: React.FC<ComponentProps> = (props) => {
     const { global, ...page } = props;
     const { title, date, client, description, markdownContent, media, prevProject, nextProject, bottomSections = [] } = page;
     const dateTimeAttr = dayjs(date).format('YYYY-MM-DD HH:mm:ss');
     const formattedDate = dayjs(date).format('YYYY-MM-DD');
+    const startDate = dayjs(date).format('YYYY-MM-DD');
+    const startTime = dayjs(date).format('HH:mm');
+    const endDate = dayjs(date).add(1, 'hour').format('YYYY-MM-DD'); // Assuming end date is 1 hour after start
+    const endTime = dayjs(date).add(1, 'hour').format('HH:mm');
+
+    const [currentUrl, setCurrentUrl] = useState('');
+
+    useEffect(() => {
+        if (typeof window !== 'undefined') {
+            setCurrentUrl(window.location.href);
+        }
+    }, []);
 
     return (
         <BaseLayout {...props}>
@@ -32,7 +45,27 @@ const Component: React.FC<ComponentProps> = (props) => {
                             {client && <div className="text-lg uppercase mb-2 md:mb-6">{client}</div>}
                             <div className="md:flex md:justify-between">
                                 <div className="text-lg mb-6 md:mb-0 md:ml-12 md:order-last">
-                                    <time dateTime={dateTimeAttr}>{formattedDate}</time>
+                                    <div className="mb-2">
+                                        <time dateTime={dateTimeAttr}>{formattedDate}</time>
+                                    </div>
+                                    <div className="mb-2">
+                                        <AddToCalendarButton
+                                            name={title}
+                                            options={['Apple', 'Google']}
+                                            location="Berlin"
+                                            startDate={startDate}
+                                            startTime={startTime}
+                                            endTime={endTime}
+                                            timeZone="Europe/Berlin"
+                                            buttonStyle="flat"
+                                            size="0"
+                                            lightMode="dark"
+                                            trigger="click"
+                                            organizer="ShredGang|contact@shredgang.cc"
+                                            hideBranding="true"
+                                            description={`[url]${currentUrl}|${currentUrl}[/url] ❤️‍🔥`}
+                                        />
+                                    </div>
                                 </div>
                                 <h1 className="md:max-w-2xl md:flex-grow">{title}</h1>
                             </div>
