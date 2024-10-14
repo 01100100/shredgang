@@ -43,31 +43,13 @@ sections:
     type: HeroSection
     actions: []
     text: "Live for speed and adventure. Have fun exploring nature in any weather. Ride hard, laugh louder, and conquer both the city streets and distant trails as one. Embrace the thrill, push your limits, and let every ride become an unforgettable part of a journey.\n\n***Shred Gang is a vibrant and diverse community of passionate riders in Berlin, united by our love of Shred.***\n\nJoin us, it might be fun \U0001F919\n"
-  - type: DividerSection
-    title: Divider
-    elementId: ''
-    styles:
-      self:
-        width: wide
-        padding:
-          - pt-0
-          - pb-0
-          - pl-4
-          - pr-4
-        justifyContent: center
-        borderWidth: 1
   - colors: colors-f
     type: FeaturedProjectsSection
     elementId: ''
-    actions:
-      - type: Link
-        label: See all Event
-        url: /events
-        showIcon: true
-        icon: arrowRightCircle
+    actions: []
     showDate: true
     showDescription: true
-    showFeaturedImage: true
+    showFeaturedImage: false
     showReadMoreLink: true
     variant: variant-d
     projects:
@@ -98,23 +80,10 @@ sections:
       actions:
         justifyContent: flex-end
     subtitle: "Upcoming Events \U0001F5D3️"
-  - type: DividerSection
-    title: Divider
-    elementId: ''
-    styles:
-      self:
-        width: wide
-        padding:
-          - pt-0
-          - pb-0
-          - pl-4
-          - pr-4
-        justifyContent: center
-        borderWidth: 1
   - type: ContactSection
     title: Stay in the loop
     text: |
-      We will share the Shred when we can.
+      Get notified about new events
     form:
       type: FormBlock
       title: Title of the form
