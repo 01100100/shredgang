@@ -29,7 +29,7 @@ export default function Footer(props) {
                                 'md:max-w-3xl',
                                 'md:mr-auto',
                                 'md:pr-12',
-                                primaryLinks.length > 0 ? 'mt-12 md:mt-32' : 'mt-8'
+                                'mt-6'
                             )}
                         />
                     )}
@@ -54,30 +54,10 @@ function Contacts(props) {
     const { phoneNumber, phoneAltText, email, emailAltText, address, addressAltText, elementId, className } = props;
     return (
         <div id={elementId || null} className={className}>
-            {phoneNumber && (
-                <p>
-                    <a className="underline hover:no-underline" href={`tel:${phoneNumber}`} aria-label={phoneAltText}>
-                        {phoneNumber}
-                    </a>
-                </p>
-            )}
             {email && (
                 <p>
                     <a className="underline hover:no-underline" href={`mailto:${email}`} aria-label={emailAltText}>
                         {email}
-                    </a>
-                </p>
-            )}
-            {address && (
-                <p>
-                    <a
-                        className="underline hover:no-underline"
-                        href={`https://www.google.com/maps/search/${encodeURIComponent(address)}`}
-                        aria-label={addressAltText}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        {address}
                     </a>
                 </p>
             )}
