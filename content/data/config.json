@@ -3,17 +3,11 @@
     "favicon": "/images/favicon.ico",
     "header": {
         "type": "Header",
-        "headerVariant": "variant-b",
+        "headerVariant": "variant-a",
         "isSticky": false,
         "title": "Shred Gang",
         "isTitleVisible": true,
-        "primaryLinks": [
-            {
-                "type": "Link",
-                "label": "Events 🗓️",
-                "url": "/events"
-            }
-        ],
+        "primaryLinks": [],
         "socialLinks": [
             {
                 "type": "Social",
@@ -77,7 +71,7 @@
         "copyrightText": "Powered by Shred\n",
         "styles": {
             "self": {
-                "width": "narrow",
+                "width": "wide",
                 "padding": [
                     "pt-0",
                     "pb-10",
