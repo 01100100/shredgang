@@ -63,6 +63,8 @@ When I walked into the main room of the hut, I was surprised to see how many mor
 
 Stepping outside and boahhh!! There is nothing better than waking up in a hut and seeing the beautiful mountains from high up bathed in the sunrise colours.
 
+![](/images/sneak-peaks-gopro-5.jpg)
+
 After a quick cappuccino and some chit-chat, I set off cruising into the valley below. rolling into another day of riding in the mountains, above the clouds - life was good.
 
 The route sneaked through lush forests, and after a beautiful gravel ascent I got up to the top of the Brocon Pass. I saw a fellow rider, Jannes, drinking an espresso in the bar. I joined him, we both ate a cake and we hit it together.
@@ -70,6 +72,8 @@ The route sneaked through lush forests, and after a beautiful gravel ascent I go
 The descent from the Brocon just kept on going and going! Jannes was riding super fast and I was hot on his heels all the way down… We rode together and chatted for a bit but I needed to stop for water and that was it. he was gone, I was alone, any sense of companionship left with him.
 
 After a few more passes, I wondered why a fellow rider was coming the wrong way towards me. Another “Sackgasse” on the way to Rifugio Scarpa and Checkpoint 3! I knew what to do!  Quickly, I ditched my bags and made short work of the climb.
+
+![](/images/sneak-peaks-2.jpg)
 
 It was another hut in a truly breathtaking location. As I arrived, Jannes was about to leave. I quickly got my stamp, grabbed an espresso, cake, and a sandwich to go, and set off with him.
 
@@ -81,11 +85,17 @@ Our alarms were set for sunrise. We woke up, brushed our teeth, and hit the road
 
 The day's menu was especially delicious —brioche, cake, toasted sandwiches, chips, and litres of lemon soda. So much pizza I became biologically 30% margherita.
 
+![](/images/sneak-peaks-gopro-3.JPG)
+
 Jannes needed to swap his brake pads, but we were missing an Allen key. A local senior, standing in his driveway with his garage door open and brimming with tools appeared. Our hero. After some questionable Italian on our part, he was more than happy to help. He handed us a box of Allen keys and insisted we take one. Meanwhile, his wife made us coffee. The locals were truly lovely.
 
 There was a report of a big storm coming in. It looked like rain would start around 16:00, dumping a lot of water by midnight. We decided to take early accommodation to avoid being caught in the storm. This also gave us a chance to rest and recuperate with real Italian pizza. Quite the hard life, right?
 
-First, though, we had a big climb to checkpoint 4: Rifugio Antelao. Like the previous huts, it had a real charm to it. Here, I met Rapha (the organiser of SNEAK PEAKS) and Steffi (documentary creator) for the first time. We ate some soul nourishing homemade knödel and drank anything offered.The hut owner even helped me repair a hole in my shoe. Legend! As much as we loved our stay there, the approaching storm urged us to take a fast descent back into the valley.
+First, though, we had a big climb to checkpoint 4: Rifugio Antelao.
+
+![](/images/sneak-peaks-4.jpg)
+
+Like the previous huts, it had a real charm to it. Here, I met Rapha (the organiser of SNEAK PEAKS) and Steffi (documentary creator) for the first time. We ate some soul nourishing homemade knödel and drank anything offered.The hut owner even helped me repair a hole in my shoe. Legend! As much as we loved our stay there, the approaching storm urged us to take a fast descent back into the valley.
 
 There were only two places to stay in town. The first was full, so our decision was made. When we arrived at the second it was empty and there was a number on the desk. I called it, and the owner explained he was on holiday and the hotel was closed. I asked if there was a place nearby where we could stay. Surprisingly, he told us we could go behind the desk, take key 124, and help ourselves to breakfast. He asked us to leave some money in a book when we left. Amazing trust on his part - the local hospitality really came out for us that day.
 
@@ -93,7 +103,11 @@ There were only two places to stay in town. The first was full, so our decision 
 
 The next day started early. We would ride into the dark. We were well rested and had a mission of a big day in the mountains. It was still raining but I grew up in England and the rain somehow comforts me. We put on our rain jackets and put power to the pedal.
 
+![](/images/sneak-peaks-gopro-6.jpg)
+
 We rode through the clouds over several alpine passes, smiling as the rain came down.Then we droped into a big gravel descent 600 m down back to the valley. It was pretty wet there. We were met by what would have normally been a very crossable stream with a road going through. However, the stream was now a raging river and the road was washed away. We walked up and down looking for the best place to cross. Finally, I found a way, but it required climbing up a small rock slide and pushing through some trees.
+
+![](/images/sneak-peaks-gopro-7.jpg)
 
 Then on the other side we got stuck by another river to cross, this time even more powerful. Ops! Jannes threw a log in to check how deep it was, which immediately disappeared into the depths of the raging torrent. Yup!  Taking shelter under a nearby digger, presumably there to fix the road, we discussed the options: do we go back up to the top and take a road route down, or do we try to find another way. Jannes, my well trusted friend at this point, said the rational thing a German would say “We build a bridge”. I laughed. We hopped over the first river again and did the whole climbing dance again and got ready to build a bridge. Alas, when we got back to the second river, it was a whole 30 cm higher and even more powerful. We gave up… Back up the way we came we went!
 
@@ -101,11 +115,17 @@ By the time we reached the head of the gravel path, the sun was shining and the 
 
 The next part of the route might be my favourite. It featured one of the steepest climbs (we mostly pushed) with some real quick altitude gain to a place where you really feel alone. High mountain pastures weaved between giant sculptures of rock. We were briefly held up by a gang of goats, but apart from that, all the wildlife was friendly.
 
+![](/images/sneak-peaks-gopro-8.jpg)
+
 We got down into a village and found an Italian bar and ordered everything on the menu to refuel before setting off on yet another climb starting off through a forest. Nature called, and as I was pulling up my bib shorts in the forest, I felt the fire burn of a wasp sting in my calf. Ouch! Shit happens…
 
 I took an antihistamine and continued onwards. The climb was insane, with sunset casting a golden hue and light posts adorned with historical Giro d’Italia photos. I probably would have enjoyed it more if not for the allergic reaction. It seemed that wherever I scratched, red bumps would follow, making it even itchier.
 
-We went onwards and over the pass and down the other side. It was mega steep farmer concrete (30+ %) and this filled the air with the smell of overheated brake pads. The best way to cool brakes however is to ride fast and let the air cool the pads. On the way down we hit some gravel and Jannes got a flat. It was now dark.
+We went onwards and over the pass and down the other side. It was mega steep farmer concrete (30+ %) and this filled the air with the smell of overheated brake pads.
+
+![](/images/sneak-peaks-gopro-11.jpg)
+
+The best way to cool brakes however is to ride fast and let the air cool the pads. On the way down we hit some gravel and Jannes got a flat. It was now dark.
 
 Life is like that, sometimes things feel a little deflated. When it does, just be thankful that you brought the premium Silca sealant and pump it back up.
 
@@ -146,6 +166,8 @@ I sent a picture of my feet to a friend’s whatsapp-group and they suggested it
 So after all it seemed that it wasn’t actually an allergic reaction to a wasp, just a sensitivity to an unknown plant compound plus sunlight... crazy.
 
 I got treated, and the blisters popped and drained and my ankles bandaged up. I picked up my bike from the hotel, took the train to the end and met new and old friends as they finished the ride. Banging event!
+
+![](/images/sneak-peaks-13.jpg)
 
 **Conclusion:**
 
