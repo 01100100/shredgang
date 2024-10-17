@@ -125,7 +125,7 @@ We went onwards and over the pass and down the other side. It was mega steep far
 
 ![](/images/sneak-peaks-gopro-11.jpg)
 
-The best way to cool brakes however is to ride fast and let the air cool the pads. On the way down we hit some gravel and Jannes got a flat. It was now dark.
+The best way to cool brakes however is to ride fast and let the air cool the pads. And we certainly did. On the way down we hit some gravel. It was now dark. The gravel became big chunk rock gravel and Jannes got a flat.
 
 Life is like that, sometimes things feel a little deflated. When it does, just be thankful that you brought the premium Silca sealant and pump it back up.
 
