@@ -8,14 +8,17 @@
     body {
         @apply flex flex-col min-h-screen antialiased;
     }
-    body > div,
+
+    body>div,
     .sb-page,
     .sb-base {
         @apply flex flex-col grow;
     }
+
     .sb-layout {
         @apply grow;
     }
+
     h1,
     h2,
     h3,
@@ -30,19 +33,24 @@
 @layer components {
     .sb-markdown {
         @apply text-lg leading-relaxed;
+
         a {
             @apply underline;
         }
+
         a:hover {
             @apply no-underline;
         }
+
         b,
         strong {
             @apply font-medium;
         }
+
         em {
             @apply italic;
         }
+
         h1,
         h2,
         h3,
@@ -51,23 +59,28 @@
         h6 {
             margin: 2.5rem 0 1.5rem;
         }
+
         p {
             margin: 1.5rem 0;
         }
+
         ol {
             @apply list-decimal;
             margin: 1.5rem 0;
             padding-left: 1.25em;
         }
+
         ul {
             @apply list-disc;
             margin: 1.5rem 0;
             padding-left: 1.25em;
         }
-        li > ul,
-        li > ol {
+
+        li>ul,
+        li>ol {
             margin: 0;
         }
+
         blockquote {
             @apply border-l-4 border-current;
             font-size: 1.25em;
@@ -75,41 +88,50 @@
             margin: 2.5rem 0;
             padding-left: 1.25em;
         }
+
         pre {
             @apply overflow-x-auto leading-normal border border-current;
             font-size: 0.875em;
             margin: 1.5rem 0;
             padding: 1.25em;
         }
+
         hr {
             @apply h-px bg-current border-0;
             margin: 2.5rem 0;
         }
+
         figure {
             margin: 1.5rem 0;
         }
+
         figcaption {
             @apply leading-normal;
             font-size: 0.875em;
             margin: 0.5rem 0 0;
         }
+
         table {
             @apply w-full text-left border border-collapse border-current;
             margin: 1.5rem 0;
         }
+
         caption {
             @apply text-left;
             font-size: 0.875em;
             margin: 0 0 0.5rem;
         }
+
         th,
         td {
             @apply border-b border-r border-current;
             padding: 0.5em;
         }
+
         th {
             font-weight: medium;
         }
+
         h1:first-child,
         h2:first-child,
         h3:first-child,
@@ -126,11 +148,12 @@
         table:first-child {
             margin-top: 0;
         }
-        h1 + h2,
-        h2 + h3,
-        h3 + h4,
-        h4 + h5,
-        h5 + h6 {
+
+        h1+h2,
+        h2+h3,
+        h3+h4,
+        h4+h5,
+        h5+h6 {
             margin-top: 1.5rem;
         }
     }
@@ -140,11 +163,13 @@
         @apply relative inline-flex items-center justify-center text-lg text-center no-underline transition duration-200 ease-in border-2 border-current;
         box-shadow: none;
     }
+
     .sb-component-button:not(.sb-component-button-no-hover):hover,
     .group:hover .sb-component-button:not(.sb-component-button-no-hover) {
         box-shadow: 0 6px 0 0 currentColor;
         transform: translate(0, -6px);
     }
+
     .sb-component-button-secondary {
         @apply rounded-full;
     }
@@ -153,10 +178,12 @@
     .sb-component-link {
         @apply relative inline-flex items-center justify-center text-lg no-underline;
     }
+
     .sb-component-link:not(.sb-component-link-fill) {
         box-shadow: 0 1px 0 0 currentColor;
         transition: box-shadow 0.25s ease-in-out;
     }
+
     .sb-component-link:not(.sb-component-link-fill):hover,
     .group:hover .sb-component-link:not(.sb-component-link-fill) {
         box-shadow: 0 5px 0 0 currentColor;
@@ -166,6 +193,7 @@
     .sb-component-social {
         @apply relative inline-flex items-center justify-center text-lg no-underline;
     }
+
     .sb-component-social:not(.sb-component-social-fill) {
         @apply opacity-100 hover:opacity-80;
         transition: opacity 0.25s ease-in-out;
@@ -180,6 +208,7 @@
         transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
         z-index: 1;
     }
+
     .sb-component-link-fill:before,
     .sb-component-social-fill:before,
     .sb-header-logo:before {
@@ -191,6 +220,7 @@
         transition: transform 0.25s, opacity 0.25s;
         width: 101%;
     }
+
     .sb-component-link-fill:hover:before,
     .sb-component-social-fill:hover:before,
     .sb-header-logo:hover:before {
@@ -204,39 +234,48 @@
     data:has(.sb-form-control-full) {
         @apply sm:col-span-2;
     }
+
     .sb-form-control {
         @apply mb-6;
     }
+
     .sb-label {
         @apply inline-block mb-1 sm:text-xl;
     }
+
     .sb-input,
     .sb-select,
     .sb-textarea {
         @apply w-full p-3 bg-transparent border border-current focus:outline-none sm:text-xl;
     }
+
     option {
         color: initial;
     }
+
     .sb-checkbox {
         @apply absolute opacity-0 appearance-none select-none;
         height: 1.5em;
         width: 1.5em;
     }
-    .sb-checkbox + .sb-label {
+
+    .sb-checkbox+.sb-label {
         @apply relative cursor-pointer sm:text-xl;
         padding-left: 2.5em;
     }
-    .sb-checkbox + .sb-label:before {
+
+    .sb-checkbox+.sb-label:before {
         @apply absolute left-0 font-sans text-center -translate-y-1/2 border border-current cursor-pointer top-1/2;
         content: '';
         height: 1.5em;
         width: 1.5em;
         line-height: 1.25;
     }
-    .sb-checkbox:checked + .sb-label:before {
+
+    .sb-checkbox:checked+.sb-label:before {
         content: '\2713';
     }
+
     .sb-select {
         @apply bg-no-repeat appearance-none cursor-pointer pr-7;
         background-image: linear-gradient(45deg, transparent 50%, currentColor 0), linear-gradient(135deg, currentColor 50%, transparent 0);
@@ -245,7 +284,7 @@
         background-repeat: no-repeat;
     }
 
-    .text-center + .sb-contact-section-form,
+    .text-center+.sb-contact-section-form,
     .sb-contact-section-form:only-child {
         text-align: center;
     }
@@ -263,111 +302,151 @@
 
     /* Color palettes */
     .colors-a {
-        @apply bg-dark text-on-dark;
+        @apply text-on-dark;
+
         .sb-input,
         .sb-select,
         .sb-textarea {
             @apply placeholder-opacity-75 text-on-dark placeholder-on-dark;
         }
+
         .sb-component-link-fill:before,
         .sb-component-social-fill:before,
         .sb-header-logo:before {
             @apply bg-on-dark;
         }
+
         .sb-component-link-fill:hover,
         .sb-component-social-fill:hover,
         .sb-header-logo:hover {
             @apply text-dark;
         }
+
         .sb-header-overlay {
             @apply bg-dark;
         }
     }
+
     .colors-b {
         @apply bg-light text-on-light;
+
         .sb-input,
         .sb-select,
         .sb-textarea {
             @apply placeholder-opacity-75 text-on-light placeholder-on-light;
         }
+
         .sb-component-link-fill:before,
         .sb-component-social-fill:before,
         .sb-header-logo:before {
             @apply bg-on-light;
         }
+
         .sb-component-link-fill:hover,
         .sb-component-social-fill:hover,
         .sb-header-logo:hover {
             @apply text-light;
         }
+
         .sb-header-overlay {
             @apply bg-light;
         }
     }
+
     .colors-c {
         @apply bg-primary text-on-primary;
+
         .sb-input,
         .sb-select,
         .sb-textarea {
             @apply placeholder-opacity-75 text-on-primary placeholder-on-primary;
         }
+
         .sb-component-link-fill:before,
         .sb-component-social-fill:before,
         .sb-header-logo:before {
             @apply bg-on-primary;
         }
+
         .sb-component-link-fill:hover,
         .sb-component-social-fill:hover,
         .sb-header-logo:hover {
             @apply text-primary;
         }
+
         .sb-header-overlay {
             @apply bg-primary;
         }
     }
+
     .colors-d {
         @apply bg-secondary text-on-secondary;
+
         .sb-input,
         .sb-select,
         .sb-textarea {
             @apply placeholder-opacity-75 text-on-secondary placeholder-on-secondary;
         }
+
         .sb-component-link-fill:before,
         .sb-component-social-fill:before,
         .sb-header-logo:before {
             @apply bg-on-secondary;
         }
+
         .sb-component-link-fill:hover,
         .sb-component-social-fill:hover,
         .sb-header-logo:hover {
             @apply text-secondary;
         }
+
         .sb-header-overlay {
             @apply bg-secondary;
         }
     }
+
     .colors-e {
         @apply bg-complementary text-on-complementary;
+
         .sb-input,
         .sb-select,
         .sb-textarea {
             @apply placeholder-opacity-75 text-on-complementary placeholder-on-complementary;
         }
+
         .sb-component-link-fill:before,
         .sb-component-social-fill:before,
         .sb-header-logo:before {
             @apply bg-on-complementary;
         }
+
         .sb-component-link-fill:hover,
         .sb-component-social-fill:hover,
         .sb-header-logo:hover {
             @apply text-complementary;
         }
+
         .sb-header-overlay {
             @apply bg-complementary;
         }
     }
+
     .colors-f {
         @apply bg-transparent;
     }
+
+    /* Custom styles for paragraphs in SneakPeaks 2024 Recap */
+    .custom-paragraph {
+        background-color: darkorchid;
+        display: inline;
+    }
+}
+
+#hearts {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }

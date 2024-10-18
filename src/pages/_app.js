@@ -1,5 +1,14 @@
 import '../css/main.css';
 
-export default function MyApp({ Component, pageProps }) {
-    return <Component {...pageProps} />;
+import HeartBackground from '../components/HeartBackground';
+
+function MyApp({ Component, pageProps }) {
+    return (
+        <>
+            <HeartBackground />
+            <Component {...pageProps} />
+        </>
+    );
 }
+
+export default MyApp;
