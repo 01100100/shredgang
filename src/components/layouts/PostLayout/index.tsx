@@ -39,7 +39,22 @@ const Component: React.FC<ComponentProps> = (props) => {
                             </div>
                         )}
                         {markdownContent && (
-                            <Markdown options={{ forceBlock: true, overrides: { pre: HighlightedPreBlock } }} className="sb-markdown max-w-screen-md mx-auto">
+                            <Markdown
+                                options={{
+                                    forceBlock: true,
+                                    overrides: {
+                                        pre: HighlightedPreBlock,
+                                        p: {
+                                            component: ({ children, ...props }) => (
+                                                <p {...props}>
+                                                    <span className="custom-paragraph">{children}</span>
+                                                </p>
+                                            ),
+                                        },
+                                    },
+                                }}
+                                className="sb-markdown max-w-screen-md mx-auto"
+                            >
                                 {markdownContent}
                             </Markdown>
                         )}
