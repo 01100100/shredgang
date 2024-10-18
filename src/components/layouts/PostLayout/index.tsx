@@ -1,12 +1,12 @@
-import * as React from 'react';
+import React from 'react';
 import dayjs from 'dayjs';
-import Markdown from 'markdown-to-jsx';
 import classNames from 'classnames';
 
 import HighlightedPreBlock from './../../../utils/highlighted-markdown';
 import BaseLayout from '../BaseLayout';
 import { DynamicComponent } from '../../components-registry';
 import { PostLayout, PageComponentProps } from '@/types';
+import LightboxMarkdown from '../../LightboxMarkdown';
 
 type ComponentProps = PageComponentProps & PostLayout;
 
@@ -39,9 +39,7 @@ const Component: React.FC<ComponentProps> = (props) => {
                             </div>
                         )}
                         {markdownContent && (
-                            <Markdown options={{ forceBlock: true, overrides: { pre: HighlightedPreBlock } }} className="sb-markdown max-w-screen-md mx-auto">
-                                {markdownContent}
-                            </Markdown>
+                            <LightboxMarkdown content={markdownContent} />
                         )}
                     </div>
                 </article>
@@ -56,6 +54,7 @@ const Component: React.FC<ComponentProps> = (props) => {
         </BaseLayout>
     );
 };
+
 export default Component;
 
 function PostMedia({ media }) {
@@ -63,9 +62,5 @@ function PostMedia({ media }) {
 }
 
 function PostAuthor({ author }) {
-    return (
-        <span>
-            {author.firstName && <span>{author.firstName}</span>} {author.lastName && <span>{author.lastName}</span>}
-        </span>
-    );
+    return <span>{author}</span>;
 }
