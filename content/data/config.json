@@ -5,9 +5,20 @@
         "type": "Header",
         "headerVariant": "variant-a",
         "isSticky": false,
-        "title": "Shred Gang",
+        "title": "Shred Gang 💜",
         "isTitleVisible": true,
-        "primaryLinks": [],
+        "primaryLinks": [
+            {
+                "type": "Link",
+                "label": "Writing ✍️",
+                "altText": "",
+                "url": "/blog",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "elementId": ""
+            }
+        ],
         "socialLinks": [
             {
                 "type": "Social",
@@ -68,7 +79,7 @@
             "address": "Neukölln, Berlin, 12059",
             "addressAltText": "My address"
         },
-        "copyrightText": "Powered by Shred\n",
+        "copyrightText": "Powered by Shred 💜\n",
         "styles": {
             "self": {
                 "width": "wide",

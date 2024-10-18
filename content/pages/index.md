@@ -1,6 +1,6 @@
 ---
 type: PageLayout
-title: ShredGang
+title: "ShredGang \U0001F919"
 colors: colors-a
 backgroundImage:
   type: BackgroundImage
@@ -102,7 +102,7 @@ sections:
           placeholder: Your email
           width: 1/2
           isRequired: 'true'
-      submitLabel: "Sign me up to receive updates of shred ❤️‍\U0001F525"
+      submitLabel: "Sign me up to for updates of Shred ❤️‍\U0001F525"
       elementId: contact-form
       styles:
         submitLabel:
@@ -129,6 +129,8 @@ sections:
         textAlign: center
       text:
         textAlign: center
-socialImage: /images/shredish.webp
+socialImage: /images/sneak-peaks-7.jpg
 metaDescription: "Are you Shready..? \U0001F919"
+addTitleSuffix: false
+metaTitle: ''
 ---
