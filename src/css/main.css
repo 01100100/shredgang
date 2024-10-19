@@ -450,3 +450,75 @@
     left: 0;
     z-index: -1;
 }
+
+.wavy-background {
+    position: relative;
+    overflow: hidden;
+}
+
+#wavy-bg-wrap {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.wavy-background .content {
+    position: relative;
+    z-index: 1;
+}
+
+/* TriangleBackground styles */
+.triangle-background {
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 2;
+    background: radial-gradient(circle, transparent 0%, rgba(98, 35, 210, 0.15) 100%);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(10, 200px);
+    grid-template-rows: repeat(6, 230px);
+    transform: translate(-3%, -4%);
+}
+
+.shape {
+    width: 200px;
+    height: 230px;
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+
+.shape:nth-child(n + 10) {
+    transform: translate(-50%, -25%);
+}
+
+.shape:nth-child(n + 20) {
+    transform: translate(0%, -50%);
+}
+
+.shape:nth-child(n + 30) {
+    transform: translate(-50%, -75%);
+}
+
+.shape:nth-child(n + 40) {
+    transform: translate(0%, -100%);
+}
+
+.shape:nth-child(n + 50) {
+    transform: translate(-50%, -125%);
+}
+
+.triangle-background .content {
+    position: relative;
+    z-index: 1;
+}
