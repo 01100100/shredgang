@@ -6,6 +6,7 @@ import ProjectFeedSection from '../../sections/ProjectFeedSection';
 import BaseLayout from '../BaseLayout';
 import { mapStylesToClassNames as mapStyles } from '../../../utils/map-styles-to-class-names';
 import { ProjectFeedLayout, PageComponentProps, ProjectLayout } from '@/types';
+import WavyBackground from '../../../components/WavyBackground'; // Import WavyBackground
 
 type ComponentProps = PageComponentProps & ProjectFeedLayout & { items: ProjectLayout[] };
 
@@ -14,36 +15,39 @@ const Component: React.FC<ComponentProps> = (props) => {
     const { title, topSections = [], bottomSections = [], items, projectFeed, styles = {} } = page;
 
     return (
-        <BaseLayout {...props}>
-            <main id="main" className="layout page-layout">
-                {title && (
-                    <div
-                        className={classNames(
-                            'flex',
-                            'py-12',
-                            'lg:py-16',
-                            'px-4',
-                            mapStyles({ justifyContent: projectFeed?.styles?.self?.justifyContent ?? 'center' })
-                        )}
-                    >
-                        <h1
+        <WavyBackground>
+            <BaseLayout {...props}>
+                <main id="main" className="layout page-layout">
+                    {title && (
+                        <div
                             className={classNames(
-                                'w-full',
-                                mapStyles({ width: projectFeed?.styles?.self?.width ?? 'wide' }),
-                                styles?.title ? mapStyles(styles?.title) : null
+                                'flex',
+                                'py-12',
+                                'lg:py-16',
+                                'px-4',
+                                mapStyles({ justifyContent: projectFeed?.styles?.self?.justifyContent ?? 'center' })
                             )}
                         >
-                            {title}
-                        </h1>
-                    </div>
-                )}
-                <Sections sections={topSections} />
-                <ProjectFeedSection {...projectFeed} projects={items} />
-                <Sections sections={bottomSections} />
-            </main>
-        </BaseLayout>
+                            <h1
+                                className={classNames(
+                                    'w-full',
+                                    mapStyles({ width: projectFeed?.styles?.self?.width ?? 'wide' }),
+                                    styles?.title ? mapStyles(styles?.title) : null
+                                )}
+                            >
+                                {title}
+                            </h1>
+                        </div>
+                    )}
+                    <Sections sections={topSections} />
+                    <ProjectFeedSection {...projectFeed} projects={items} />
+                    <Sections sections={bottomSections} />
+                </main>
+            </BaseLayout>
+        </WavyBackground>
     );
 };
+
 export default Component;
 
 function Sections({ sections }) {
