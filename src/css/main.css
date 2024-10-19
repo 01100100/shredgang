@@ -437,7 +437,7 @@
 
     /* Custom styles for paragraphs in SneakPeaks 2024 Recap */
     .custom-paragraph {
-        background-color: darkorchid;
+        background-color: rgb(153, 50, 204, 0.8);
         display: inline;
     }
 }
