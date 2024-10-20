@@ -13,7 +13,11 @@ const nextConfig = {
                 headers: [
                     {
                         key: 'Cache-Control',
-                        value: 'public, max-age=3600, immutable',
+                        value: 'public, max-age=86400, immutable', // 1 day cache time
+                    },
+                    {
+                        key: 'Link',
+                        value: '</images/purple-haze.jpg>; rel=preload; as=image',
                     },
                 ],
             },

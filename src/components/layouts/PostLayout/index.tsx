@@ -7,6 +7,7 @@ import HighlightedPreBlock from './../../../utils/highlighted-markdown';
 import BaseLayout from '../BaseLayout';
 import { DynamicComponent } from '../../components-registry';
 import { PostLayout, PageComponentProps } from '@/types';
+import CustomImage from '../../CustomImage';
 
 type ComponentProps = PageComponentProps & PostLayout;
 
@@ -50,6 +51,12 @@ const Component: React.FC<ComponentProps> = (props) => {
                                                     <span className="custom-paragraph">{children}</span>
                                                 </p>
                                             ),
+                                        },
+                                        img: {
+                                            component: CustomImage,
+                                            props: {
+                                                className: 'custom-image',
+                                            },
                                         },
                                     },
                                 }}

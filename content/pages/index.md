@@ -131,6 +131,10 @@ sections:
         textAlign: center
 socialImage: /images/sneak-peaks-7.jpg
 metaDescription: "Are you Shready..? \U0001F919"
-addTitleSuffix: false
+addTitleSuffix: true
 metaTitle: ''
+metaTags:
+  - type: MetaTag
+    property: 'og:title'
+    content: ''
 ---
