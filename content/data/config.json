@@ -101,5 +101,18 @@
                 ]
             }
         }
-    }
+    },
+    "defaultSocialImage": "/images/sneak-peaks-5.jpg",
+    "defaultMetaTags": [
+        {
+            "type": "MetaTag",
+            "property": "og:title",
+            "content": "Are you Shready? 🤙"
+        },
+        {
+            "type": "MetaTag",
+            "property": "og:description",
+            "content": "Join us, it might be fun 🚀"
+        }
+    ]
 }
