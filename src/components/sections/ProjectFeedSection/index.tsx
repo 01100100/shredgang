@@ -75,7 +75,7 @@ function ProjectFeedVariants(props) {
 }
 
 function sortProjectsByDate(projects) {
-    return projects.slice().sort((a, b) => new Date(a.date) - new Date(b.date));
+    return projects.slice().sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
 }
 
 function ProjectsVariantABC(props) {
