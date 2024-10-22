@@ -74,9 +74,14 @@ function ProjectFeedVariants(props) {
     }
 }
 
+function sortProjectsByDate(projects) {
+    return projects.slice().sort((a, b) => new Date(a.date) - new Date(b.date));
+}
+
 function ProjectsVariantABC(props) {
     const { variant = 'variant-a', projects = [], showDate, showDescription, showFeaturedImage, showReadMoreLink, hasTopMargin } = props;
-    if (projects.length === 0) {
+    const sortedProjects = sortProjectsByDate(projects);
+    if (sortedProjects.length === 0) {
         return null;
     }
     return (
@@ -89,7 +94,7 @@ function ProjectsVariantABC(props) {
                 'mt-12': hasTopMargin
             })}
         >
-            {projects.map((project, index) => (
+            {sortedProjects.map((project, index) => (
                 <Link key={index} href={project} className="sb-project-feed-item block group">
                     <article className="border-b border-current pb-10 max-w-3xl">
                         {showFeaturedImage && project.featuredImage && (
@@ -124,7 +129,8 @@ function ProjectsVariantABC(props) {
 
 function ProjectsVariantD(props) {
     const { projects = [], showDate, showDescription, showFeaturedImage, showReadMoreLink, hasTopMargin } = props;
-    if (projects.length === 0) {
+    const sortedProjects = sortProjectsByDate(projects);
+    if (sortedProjects.length === 0) {
         return null;
     }
     return (
@@ -133,7 +139,7 @@ function ProjectsVariantD(props) {
                 'mt-12': hasTopMargin
             })}
         >
-            {projects.map((project, index) => (
+            {sortedProjects.map((project, index) => (
                 <Link key={index} href={project} className="sb-project-feed-item block group">
                     <article className="border-b border-current pb-10 md:pb-12 md:px-4">
                         <div className="md:flex md:items-center">
@@ -171,7 +177,6 @@ function ProjectsVariantD(props) {
         </div>
     );
 }
-
 function ProjectDate({ date }) {
     const dateTimeAttr = dayjs(date).format('YYYY-MM-DD HH:mm:ss');
     const formattedDate = dayjs(date).format('YYYY-MM-DD');
