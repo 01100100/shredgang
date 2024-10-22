@@ -14,7 +14,7 @@ projectFeed:
   colors: colors-f
   showDate: true
   showDescription: false
-  showReadMoreLink: false
+  showReadMoreLink: true
   showFeaturedImage: false
   variant: variant-a
   styles:
