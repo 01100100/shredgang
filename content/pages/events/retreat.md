@@ -53,7 +53,9 @@ Confirm your spot by emailing us at [contact@shredgang.cc](mailto:contact@shredg
 
 - **Completing the circle** cruise a gentle XC loop, completing cycle of self-discovery before returning to the city with a big open heart 💜
 
-## **#Return:** Sunday evening by train, calm, centered, and at peace. 🌙
+## **#Return:**
+
+Sunday evening by train, calm, centered, and at peace. 🌙
 
 ---
 
