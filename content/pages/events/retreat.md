@@ -29,7 +29,9 @@ Join us for a weekend of relaxation, meditation, wellness, and a little bit of t
 ---
 
 
-## **#Stay:** We have a cozy, special retreat for the night. We’ll split costs - likely under €25 per person. 🏡
+## **#Stay:**
+
+We have a cozy, special retreat for the night. We’ll split costs - likely under €25 per person. 🏡
 
 Confirm your spot by emailing us at [contact@shredgang.cc](mailto:contact@shredgang.cc) or dropping a message in the [WhatsApp](https://chat.whatsapp.com/BzIqqZYtqEc11UzS7JNKlH) group.
 
