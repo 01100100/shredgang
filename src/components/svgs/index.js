@@ -22,6 +22,7 @@ import Twitter from './twitter';
 import Vimeo from './vimeo';
 import YouTube from './youtube';
 import Strava from './strava';
+import WhatsApp from './whatsApp';
 
 export const iconMap = {
     apple: Apple,
@@ -45,6 +46,7 @@ export const iconMap = {
     reddit: Reddit,
     send: Send,
     strava: Strava,
+    WhatsApp: WhatsApp,
     twitter: Twitter,
     vimeo: Vimeo,
     youtube: YouTube

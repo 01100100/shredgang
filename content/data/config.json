@@ -45,6 +45,14 @@
                 "url": "https://strava.com/clubs/shredgang",
                 "icon": "strava",
                 "elementId": ""
+            },
+            {
+                "type": "Social",
+                "label": "WhatsApp",
+                "altText": "",
+                "url": "https://chat.whatsapp.com/BzIqqZYtqEc11UzS7JNKlH",
+                "icon": "whatsapp",
+                "elementId": ""
             }
         ],
         "styles": {
