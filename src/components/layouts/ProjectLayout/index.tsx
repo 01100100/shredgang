@@ -12,6 +12,7 @@ import Link from '../../atoms/Link';
 import { Annotated } from '@/components/Annotated';
 import { PageComponentProps, ProjectLayout } from '@/types';
 import { AddToCalendarButton } from 'add-to-calendar-button-react';
+import ParticleBackground from '../../ParticleBackground';
 
 type ComponentProps = PageComponentProps &
     ProjectLayout & {
@@ -37,61 +38,63 @@ const Component: React.FC<ComponentProps> = (props) => {
     }, []);
 
     return (
-        <BaseLayout {...props}>
-            <main id="main" className="sb-layout sb-project-layout">
-                <article className="px-4 py-14 lg:py-20">
-                    <div className="max-w-5xl mx-auto">
-                        <header className="mb-10 sm:mb-16">
-                            {client && <div className="text-lg uppercase mb-2 md:mb-6">{client}</div>}
-                            <div className="md:flex md:justify-between">
-                                <div className="text-lg mb-6 md:mb-0 md:ml-12 md:order-last">
-                                    <div className="mb-2">
-                                        <time dateTime={dateTimeAttr}>{formattedDate}</time>
+        <ParticleBackground>
+            <BaseLayout {...props}>
+                <main id="main" className="sb-layout sb-project-layout">
+                    <article className="px-4 py-14 lg:py-20">
+                        <div className="max-w-5xl mx-auto">
+                            <header className="mb-10 sm:mb-16">
+                                {client && <div className="text-lg uppercase mb-2 md:mb-6">{client}</div>}
+                                <div className="md:flex md:justify-between">
+                                    <div className="text-lg mb-6 md:mb-0 md:ml-12 md:order-last">
+                                        <div className="mb-2">
+                                            <time dateTime={dateTimeAttr}>{formattedDate}</time>
+                                        </div>
+                                        <div className="mb-2">
+                                            <AddToCalendarButton
+                                                name={title}
+                                                options={['Apple', 'Google']}
+                                                location="Berlin"
+                                                startDate={startDate}
+                                                startTime={startTime}
+                                                endTime={endTime}
+                                                timeZone="Europe/Berlin"
+                                                buttonStyle="flat"
+                                                size="0"
+                                                lightMode="dark"
+                                                trigger="click"
+                                                organizer="ShredGang|contact@shredgang.cc"
+                                                hideBranding="true"
+                                                description={`[url]${currentUrl}|${currentUrl}[/url] ❤️‍🔥`}
+                                            />
+                                        </div>
                                     </div>
-                                    <div className="mb-2">
-                                        <AddToCalendarButton
-                                            name={title}
-                                            options={['Apple', 'Google']}
-                                            location="Berlin"
-                                            startDate={startDate}
-                                            startTime={startTime}
-                                            endTime={endTime}
-                                            timeZone="Europe/Berlin"
-                                            buttonStyle="flat"
-                                            size="0"
-                                            lightMode="dark"
-                                            trigger="click"
-                                            organizer="ShredGang|contact@shredgang.cc"
-                                            hideBranding="true"
-                                            description={`[url]${currentUrl}|${currentUrl}[/url] ❤️‍🔥`}
-                                        />
-                                    </div>
+                                    <h1 className="md:max-w-2xl md:flex-grow">{title}</h1>
                                 </div>
-                                <h1 className="md:max-w-2xl md:flex-grow">{title}</h1>
-                            </div>
-                        </header>
-                        {description && <div className="text-xl leading-normal uppercase max-w-screen-md mx-auto mb-10 sm:mb-16">{description}</div>}
-                        {media && (
-                            <div className="mb-10 sm:mb-16">
-                                <ProjectMedia media={media} />
-                            </div>
-                        )}
-                        {markdownContent && (
-                            <Markdown options={{ forceBlock: true, overrides: { pre: HighlightedPreBlock } }} className="sb-markdown max-w-screen-md mx-auto">
-                                {markdownContent}
-                            </Markdown>
-                        )}
-                    </div>
-                </article>
-                {bottomSections.length > 0 && (
-                    <div>
-                        {bottomSections.map((section, index) => {
-                            return <DynamicComponent key={index} {...section} />;
-                        })}
-                    </div>
-                )}
-            </main>
-        </BaseLayout>
+                            </header>
+                            {description && <div className="text-xl leading-normal uppercase max-w-screen-md mx-auto mb-10 sm:mb-16">{description}</div>}
+                            {media && (
+                                <div className="mb-10 sm:mb-16">
+                                    <ProjectMedia media={media} />
+                                </div>
+                            )}
+                            {markdownContent && (
+                                <Markdown options={{ forceBlock: true, overrides: { pre: HighlightedPreBlock } }} className="sb-markdown max-w-screen-md mx-auto">
+                                    {markdownContent}
+                                </Markdown>
+                            )}
+                        </div>
+                    </article>
+                    {bottomSections.length > 0 && (
+                        <div>
+                            {bottomSections.map((section, index) => {
+                                return <DynamicComponent key={index} {...section} />;
+                            })}
+                        </div>
+                    )}
+                </main>
+            </BaseLayout>
+        </ParticleBackground>
     );
 };
 export default Component;
