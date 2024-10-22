@@ -22,14 +22,14 @@ Join us for a weekend of relaxation, meditation, wellness, and a little bit of t
 
 ---
 
-## **#Meet:**
+## **#Meet:** 🧑‍🤝‍🧑
 ## ⌚ Saturday 2024-11-02, 6:00 AM
 ## 📍[Berlin Hbf](https://www.google.com/maps/place/Berlin+Central+Train+Station) (or [Ostkreuz](https://www.google.com/maps/place/Ostkreuz))
 
 ---
 
 
-## **#Stay:**
+## **#Stay:** 🛌
 
 We have a cozy, special retreat for the night. We’ll split costs - likely under €25 per person. 🏡
 
@@ -37,7 +37,7 @@ Confirm your spot by emailing us at [contact@shredgang.cc](mailto:contact@shredg
 
 ---
 
-## **#Agenda** 📜
+## **#Agenda:** 📜
 
 - **Morning Rituals**: ascend **Zschirnstein** and look out over the ancient forest of Bohemia 🌲
 
@@ -53,13 +53,13 @@ Confirm your spot by emailing us at [contact@shredgang.cc](mailto:contact@shredg
 
 - **Completing the circle** cruise a gentle XC loop, completing cycle of self-discovery before returning to the city with a big open heart 💜
 
-## **#Return:**
+## **#Return:** 🔄
 
 Sunday evening by train, calm, centered, and at peace. 🌙
 
 ---
 
-## **Pack List** 🧳
+## **#PackList:** 🧳
 
 - 1 x Bike 🚲
 - 1 x Open heart and mind 🧘‍♂️
