@@ -22,11 +22,22 @@ Join us for a weekend of relaxation, meditation, wellness, and a little bit of t
 
 ---
 
-**Meet:** ⌚ Saturday 2024-11-02, 6:00 AM @📍Berlin Hbf (or Ostkreuz)
+## **Meet:**
+## ⌚ Saturday 2024-11-02, 6:00 AM
+## 📍[Berlin Hbf](https://www.google.com/maps/place/Berlin+Central+Train+Station) (or [Ostkreuz](https://www.google.com/maps/place/Ostkreuz))
 
 ---
 
-## **Agenda** 📜
+
+**Stay:** We have a cozy, special retreat for the night. We’ll split costs - likely under €25 per person. 🏡
+
+Confirm your spot by emailing us at [contact@shredgang.cc](mailto:contact@shredgang.cc) or dropping a message in the [WhatsApp](https://chat.whatsapp.com/BzIqqZYtqEc11UzS7JNKlH) group.
+
+**Return:** Sunday evening, cleansed, centered, and at peace. 🌙
+
+---
+
+## **#Agenda** 📜
 
 - **Morning Rituals**: ascend **Zschirnstein** and look out over the ancient forest of Bohemia 🌲
 
@@ -42,11 +53,7 @@ Join us for a weekend of relaxation, meditation, wellness, and a little bit of t
 
 ---
 
-**Return:** Sunday evening, cleansed, centered, and at peace. 🌙
-
----
-
-**Pack List** 🧳
+## **Pack List** 🧳
 
 - 1 x Mountain Bike 🚲 (your vessel of transformation)
 - 1 x Open heart and mind 🧘‍♂️
@@ -56,7 +63,9 @@ Join us for a weekend of relaxation, meditation, wellness, and a little bit of t
 
 ---
 
-**A Note on the Ride**: This retreat offers some easy, blissful riding on premium Czech trails 🏞️🚵‍♂️, but if you're feeling some other riding, why not make your own path? Whether it's road or gravel, the trail is yours to create. Just meet us at the wellness ceremony and reconnect with the group for the evening's sacred fire and hot tub gathering. 🌅🔥
+**A Note on the Ride**: This retreat offers some easy, blissful riding on premium Czech trails 🏞️🚵‍♂️
+
+If you're feeling some other riding, thats ok. Why not make your own path? Whether it's road or gravel, the trail is yours to create. Just meet us at sunset and reconnect with the group for the evening's sacred fire and hot tub gathering. 🌅🔥
 
 ---
 
