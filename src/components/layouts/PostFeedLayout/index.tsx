@@ -7,7 +7,7 @@ import BaseLayout from '../BaseLayout';
 import { mapStylesToClassNames as mapStyles } from '../../../utils/map-styles-to-class-names';
 import { PostFeedLayout, PageComponentProps, PostLayout, SectionModels } from '@/types';
 
-import GeometryBackground from '@/components/GeometryBackground';
+// import GeometryBackground from '@/components/GeometryBackground';
 
 type ComponentProps = PageComponentProps & PostFeedLayout & { items: PostLayout[] };
 
@@ -16,36 +16,36 @@ const Component: React.FC<ComponentProps> = (props) => {
     const { title, topSections = [], bottomSections = [], items, postFeed, styles = {} } = page;
 
     return (
-        <GeometryBackground>
-            <BaseLayout {...props}>
-                <main id="main" className="layout page-layout">
-                    {title && (
-                        <div
+        // <GeometryBackground>
+        <BaseLayout {...props}>
+            <main id="main" className="layout page-layout">
+                {title && (
+                    <div
+                        className={classNames(
+                            'flex',
+                            'py-12',
+                            'lg:py-16',
+                            'px-4',
+                            mapStyles({ justifyContent: postFeed?.styles?.self?.justifyContent ?? 'center' })
+                        )}
+                    >
+                        <h1
                             className={classNames(
-                                'flex',
-                                'py-12',
-                                'lg:py-16',
-                                'px-4',
-                                mapStyles({ justifyContent: postFeed?.styles?.self?.justifyContent ?? 'center' })
+                                'w-full',
+                                mapStyles({ width: postFeed?.styles?.self?.width ?? 'wide' }),
+                                styles?.title ? mapStyles(styles?.title) : null
                             )}
                         >
-                            <h1
-                                className={classNames(
-                                    'w-full',
-                                    mapStyles({ width: postFeed?.styles?.self?.width ?? 'wide' }),
-                                    styles?.title ? mapStyles(styles?.title) : null
-                                )}
-                            >
-                                {title}
-                            </h1>
-                        </div>
-                    )}
-                    <Sections sections={topSections} />
-                    <PostFeedSection {...postFeed} posts={items} />
-                    <Sections sections={bottomSections} />
-                </main>
-            </BaseLayout>
-        </GeometryBackground>
+                            {title}
+                        </h1>
+                    </div>
+                )}
+                <Sections sections={topSections} />
+                <PostFeedSection {...postFeed} posts={items} />
+                <Sections sections={bottomSections} />
+            </main>
+        </BaseLayout>
+        // </GeometryBackground>
     );
 };
 export default Component;
