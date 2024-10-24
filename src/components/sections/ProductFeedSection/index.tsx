@@ -7,6 +7,7 @@ import Section from '../Section';
 import { Link, Action } from '../../atoms';
 import ImageBlock from '../../molecules/ImageBlock';
 import ArrowUpRightIcon from '../../svgs/arrow-up-right';
+import Cart from '@/components/svgs/cart';
 
 export default function ProductFeedSection(props) {
     const {
@@ -49,8 +50,21 @@ export default function ProductFeedSection(props) {
                             )}
                             <h3>{product.title}</h3>
                             {showDescription && product.description && <p className="text-lg mt-5">{product.description}</p>}
-                            {product.price && <p className="text-lg mt-2">Price: € {product.price}</p>}
-                            {product.weight_g && <p className="text-lg mt-2">Weight: {product.weight_g}g</p>}
+                            {product.price && (
+                                <p className="text-lg mt-2">
+                                    Price: € {new Intl.NumberFormat('en-IE', { style: 'currency', currency: 'EUR' }).format(product.price)}
+                                </p>
+                            )}
+                            {product.weight_g && <p className="text-lg mt-2">Weight: {product.weight_g} g</p>}
+                            {/* TODO: add button to add to cart */}
+                            <div className="mt-8">
+                                <span className="sb-component sb-component-block sb-component-button sb-component-button-secondary sb-component-button-icon">
+                                    <span className="p-2">Add to basket </span>
+                                    <Cart className="fill-current h-5 w-5" />
+                                </span>
+                            </div>
+
+
                             {showReadMoreLink && (
                                 <div className="mt-8">
                                     <span className="sb-component sb-component-block sb-component-button sb-component-button-secondary sb-component-button-icon">
