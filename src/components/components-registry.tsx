@@ -60,6 +60,7 @@ const components = {
     MediaGallerySection: dynamic(() => import('./sections/MediaGallerySection')),
     PostFeedSection: dynamic(() => import('./sections/PostFeedSection')),
     ProjectFeedSection: dynamic(() => import('./sections/ProjectFeedSection')),
+    ProductFeedSection: dynamic(() => import('./sections/ProductFeedSection')),
     RecentPostsSection: dynamic(() => import('./sections/RecentPostsSection')),
     RecentProjectsSection: dynamic(() => import('./sections/RecentProjectsSection')),
     QuoteSection: dynamic(() => import('./sections/QuoteSection')),
@@ -74,5 +75,6 @@ const components = {
     PostLayout: dynamic(() => import('./layouts/PostLayout')),
     PostFeedLayout: dynamic(() => import('./layouts/PostFeedLayout')),
     ProjectLayout: dynamic(() => import('./layouts/ProjectLayout')),
-    ProjectFeedLayout: dynamic(() => import('./layouts/ProjectFeedLayout'))
+    ProjectFeedLayout: dynamic(() => import('./layouts/ProjectFeedLayout')),
+    ProductFeedLayout: dynamic(() => import('./layouts/ProductFeedLayout'))
 };
