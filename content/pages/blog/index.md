@@ -1,6 +1,6 @@
 ---
 type: PostFeedLayout
-title: Writing
+title: Writing  ✍️
 colors: colors-a
 backgroundImage:
   type: BackgroundImage
