@@ -1,6 +1,6 @@
 ---
 type: PageLayout
-title: "ShredGang \U0001F919"
+title: "ShredGang.cc"
 colors: colors-a
 backgroundImage:
   type: BackgroundImage

@@ -3,7 +3,7 @@ import * as React from 'react';
 import BaseLayout from '../BaseLayout';
 import { DynamicComponent } from '../../components-registry';
 import { PageLayout, PageComponentProps } from '@/types';
-import HeartBackground from '../../../components/HeartBackground';
+import HeartBackground from '../../backgrounds/HeartBackground';
 type ComponentProps = PageComponentProps & PageLayout;
 
 const Component: React.FC<ComponentProps> = (props) => {

@@ -1,10 +1,10 @@
 import { BaseContentObject } from './base';
 
 export type DataModelType = Config | Person | ThemeStyle;
-export type PageModelType = PageLayout | PostFeedLayout | PostLayout | ProjectFeedLayout | ProjectLayout;
+export type PageModelType = PageLayout | PostFeedLayout | PostLayout | ProjectFeedLayout | ProjectLayout | ProductFeedLayout;
 
 export const DATA_MODEL_NAMES = ['Config', 'Person', 'ThemeStyle'];
-export const PAGE_MODEL_NAMES = ['PageLayout', 'PostFeedLayout', 'PostLayout', 'ProjectFeedLayout', 'ProjectLayout'];
+export const PAGE_MODEL_NAMES = ['PageLayout', 'PostFeedLayout', 'PostLayout', 'ProjectFeedLayout', 'ProjectLayout', 'ProductFeedLayout'];
 
 export type SectionModels =
     | ContactSection
@@ -54,6 +54,7 @@ export type ContentObject =
     | ProjectFeedLayout
     | ProjectFeedSection
     | ProjectLayout
+    | ProductFeedLayout
     | QuoteSection
     | RecentPostsSection
     | RecentProjectsSection
@@ -95,6 +96,7 @@ export type ContentObjectType =
     | 'MediaGallerySection'
     | 'MetaTag'
     | 'PageLayout'
+    | 'ProductFeedLayout'
     | 'Person'
     | 'PostFeedLayout'
     | 'PostFeedSection'
@@ -134,29 +136,29 @@ export type Button = BaseContentObject & {
     url: string;
     showIcon?: boolean;
     icon?:
-        | 'apple'
-        | 'arrowLeft'
-        | 'arrowLeftCircle'
-        | 'arrowRight'
-        | 'arrowRightCircle'
-        | 'arrowUpLeft'
-        | 'arrowUpRight'
-        | 'cart'
-        | 'chevronLeft'
-        | 'chevronRight'
-        | 'facebook'
-        | 'github'
-        | 'googlePlay'
-        | 'instagram'
-        | 'linkedin'
-        | 'mail'
-        | 'play'
-        | 'playCircle'
-        | 'reddit'
-        | 'send'
-        | 'twitter'
-        | 'vimeo'
-        | 'youtube';
+    | 'apple'
+    | 'arrowLeft'
+    | 'arrowLeftCircle'
+    | 'arrowRight'
+    | 'arrowRightCircle'
+    | 'arrowUpLeft'
+    | 'arrowUpRight'
+    | 'cart'
+    | 'chevronLeft'
+    | 'chevronRight'
+    | 'facebook'
+    | 'github'
+    | 'googlePlay'
+    | 'instagram'
+    | 'linkedin'
+    | 'mail'
+    | 'play'
+    | 'playCircle'
+    | 'reddit'
+    | 'send'
+    | 'twitter'
+    | 'vimeo'
+    | 'youtube';
     iconPosition?: 'left' | 'right';
     style: 'primary' | 'secondary';
     elementId?: string;
@@ -364,29 +366,29 @@ export type Link = BaseContentObject & {
     url: string;
     showIcon?: boolean;
     icon?:
-        | 'apple'
-        | 'arrowLeft'
-        | 'arrowLeftCircle'
-        | 'arrowRight'
-        | 'arrowRightCircle'
-        | 'arrowUpLeft'
-        | 'arrowUpRight'
-        | 'cart'
-        | 'chevronLeft'
-        | 'chevronRight'
-        | 'facebook'
-        | 'github'
-        | 'googlePlay'
-        | 'instagram'
-        | 'linkedin'
-        | 'mail'
-        | 'play'
-        | 'playCircle'
-        | 'reddit'
-        | 'send'
-        | 'twitter'
-        | 'vimeo'
-        | 'youtube';
+    | 'apple'
+    | 'arrowLeft'
+    | 'arrowLeftCircle'
+    | 'arrowRight'
+    | 'arrowRightCircle'
+    | 'arrowUpLeft'
+    | 'arrowUpRight'
+    | 'cart'
+    | 'chevronLeft'
+    | 'chevronRight'
+    | 'facebook'
+    | 'github'
+    | 'googlePlay'
+    | 'instagram'
+    | 'linkedin'
+    | 'mail'
+    | 'play'
+    | 'playCircle'
+    | 'reddit'
+    | 'send'
+    | 'twitter'
+    | 'vimeo'
+    | 'youtube';
     iconPosition?: 'left' | 'right';
     elementId?: string;
 };
@@ -409,23 +411,23 @@ export type MediaGallerySection = BaseContentObject & {
 export type MetaTag = BaseContentObject & {
     type: 'MetaTag';
     property?:
-        | 'og:title'
-        | 'og:type'
-        | 'og:image'
-        | 'og:image:alt'
-        | 'og:url'
-        | 'og:description'
-        | 'og:locale'
-        | 'og:site_name'
-        | 'og:video'
-        | 'twitter:card'
-        | 'twitter:site'
-        | 'twitter:creator'
-        | 'twitter:description'
-        | 'twitter:title'
-        | 'twitter:image'
-        | 'twitter:image:alt'
-        | 'twitter:player';
+    | 'og:title'
+    | 'og:type'
+    | 'og:image'
+    | 'og:image:alt'
+    | 'og:url'
+    | 'og:description'
+    | 'og:locale'
+    | 'og:site_name'
+    | 'og:video'
+    | 'twitter:card'
+    | 'twitter:site'
+    | 'twitter:creator'
+    | 'twitter:description'
+    | 'twitter:title'
+    | 'twitter:image'
+    | 'twitter:image:alt'
+    | 'twitter:player';
     content?: string;
 };
 
@@ -518,6 +520,22 @@ export type ProjectFeedLayout = BaseContentObject & {
     styles?: any;
 };
 
+export type ProductFeedLayout = BaseContentObject & {
+    type: 'ProductFeedLayout';
+    title?: string;
+    projectFeed?: ProductFeedSection;
+    topSections?: SectionModels[];
+    bottomSections?: SectionModels[];
+    metaTitle?: string;
+    metaDescription?: string;
+    addTitleSuffix?: boolean;
+    socialImage?: string;
+    metaTags?: MetaTag[];
+    colors?: 'colors-a' | 'colors-b' | 'colors-c' | 'colors-d' | 'colors-e';
+    backgroundImage?: BackgroundImage;
+    styles?: any;
+};
+
 export type ProjectFeedSection = BaseContentObject & {
     type: 'ProjectFeedSection';
     title?: string;
@@ -531,6 +549,33 @@ export type ProjectFeedSection = BaseContentObject & {
     showFeaturedImage?: boolean;
     showReadMoreLink?: boolean;
     styles?: any;
+};
+
+export type ProductFeedSection = BaseContentObject & {
+    type: 'ProductFeedSection';
+    title?: string;
+    subtitle?: string;
+    actions?: (Button | Link)[];
+    colors?: 'colors-a' | 'colors-b' | 'colors-c' | 'colors-d' | 'colors-e' | 'colors-f';
+    variant: 'variant-a' | 'variant-b' | 'variant-c' | 'variant-d';
+    elementId?: string;
+    showDate?: boolean;
+    showDescription?: boolean;
+    showFeaturedImage?: boolean;
+    showReadMoreLink?: boolean;
+    styles?: any;
+};
+
+export type Product = {
+    id: string; // Required
+    title: string;
+    description?: string;
+    date?: string;
+    price?: number;
+    weight_g?: number;
+    featuredImage: {
+        url: string;
+    };
 };
 
 export type ProjectLayout = BaseContentObject & {

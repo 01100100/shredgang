@@ -9,7 +9,8 @@ import {
     RecentPostsSection,
     RecentProjectsSection,
     PostFeedLayout,
-    ProjectFeedLayout
+    ProjectFeedLayout,
+    ProductFeedLayout
 } from '@/types';
 import { deepMapObject } from './data-utils';
 import { ConfigModel } from '.stackbit/models/Config';
@@ -71,6 +72,13 @@ const PropsResolvers: Partial<Record<ContentObjectType, ResolverFunction>> = {
         return {
             ...(props as ProjectFeedLayout),
             items: allProjects
+        };
+    },
+    ProductFeedLayout: (props, allData) => {
+        const allProducts = allData.filter((object) => object.__metadata?.modelName === 'ProductLayout');
+        return {
+            ...(props as ProductFeedLayout),
+            items: allProducts
         };
     },
     RecentProjectsSection: (props, allData) => {
