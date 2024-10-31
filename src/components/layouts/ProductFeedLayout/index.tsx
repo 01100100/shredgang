@@ -2,12 +2,10 @@ import * as React from 'react';
 import classNames from 'classnames';
 
 import { DynamicComponent } from '../../components-registry';
-import ProjectFeedSection from '../../sections/ProjectFeedSection';
 import BaseLayout from '../BaseLayout';
 import { mapStylesToClassNames as mapStyles } from '../../../utils/map-styles-to-class-names';
-import { ProductFeedLayout, PageComponentProps, ProjectLayout } from '@/types';
-import WavyBackground from '../../WavyBackground'; // Import WavyBackground
-import ProductFeedSection from '@/components/sections/ProductFeedSection';
+import { ProductFeedLayout, PageComponentProps, ProjectLayout, Product, SectionModels } from '@/types';
+import BlotterBackground from '../../backgrounds/BlotterBackground';
 
 type ComponentProps = PageComponentProps & ProductFeedLayout & { items: ProjectLayout[] };
 
@@ -15,10 +13,20 @@ const Component: React.FC<ComponentProps> = (props) => {
     const { global, ...page } = props;
     const { title, topSections = [], bottomSections = [], items, projectFeed, styles = {} } = page;
 
-    console.log('Loaded product feed config:', page);
+    // Transform ProjectLayout[] to Product[]
+    const transformedProducts: Product[] = items.map((item) => ({
+        id: item.__metadata.id, // Guaranteed to exist
+        title: item.title,
+        description: item.description,
+        date: item.date,
+        featuredImage: {
+            url: item.featuredImage?.url || '/default-image.jpg', // Provide a default URL if missing
+        },
+        // Map other necessary fields here
+    }));
 
     return (
-        <WavyBackground>
+        < BlotterBackground >
             <BaseLayout {...props}>
                 <main id="main" className="layout page-layout">
                     {title && (
@@ -35,7 +43,7 @@ const Component: React.FC<ComponentProps> = (props) => {
                                 className={classNames(
                                     'w-full',
                                     mapStyles({ width: projectFeed?.styles?.self?.width ?? 'wide' }),
-                                    styles?.title ? mapStyles(styles?.title) : null
+                                    styles?.title ? mapStyles(styles.title) : null
                                 )}
                             >
                                 {title}
@@ -43,17 +51,21 @@ const Component: React.FC<ComponentProps> = (props) => {
                         </div>
                     )}
                     <Sections sections={topSections} />
-                    <ProductFeedSection {...projectFeed} products={items} />
+                    <div className="flex items-center justify-center py-36">
+                        <h1 className="text-center text-4xl font-semibold coming-soon">
+                            Coming soon...
+                        </h1>
+                    </div>
                     <Sections sections={bottomSections} />
                 </main>
             </BaseLayout>
-        </WavyBackground>
+        </ BlotterBackground >
     );
 };
 
 export default Component;
 
-function Sections({ sections }) {
+function Sections({ sections }: { sections: SectionModels[] }) {
     if (sections.length === 0) {
         return null;
     }

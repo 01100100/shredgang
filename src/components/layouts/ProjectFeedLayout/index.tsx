@@ -6,7 +6,7 @@ import ProjectFeedSection from '../../sections/ProjectFeedSection';
 import BaseLayout from '../BaseLayout';
 import { mapStylesToClassNames as mapStyles } from '../../../utils/map-styles-to-class-names';
 import { ProjectFeedLayout, PageComponentProps, ProjectLayout } from '@/types';
-import WavyBackground from '../../../components/WavyBackground'; // Import WavyBackground
+import WavyBackground from '../../backgrounds/WavyBackground';
 
 type ComponentProps = PageComponentProps & ProjectFeedLayout & { items: ProjectLayout[] };
 

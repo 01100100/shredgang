@@ -8,7 +8,7 @@ weight_g:
 description: "Shred Straps"
 featuredImage:
   type: ImageBlock
-  url: /images/bg3.jpg
+  url: /images/shop/straps.webp
   altText: Project thumbnail image
 media:
   type: ImageBlock

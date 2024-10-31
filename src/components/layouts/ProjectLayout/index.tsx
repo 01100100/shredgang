@@ -12,7 +12,7 @@ import Link from '../../atoms/Link';
 import { Annotated } from '@/components/Annotated';
 import { PageComponentProps, ProjectLayout } from '@/types';
 import { AddToCalendarButton } from 'add-to-calendar-button-react';
-import ParticleBackground from '../../ParticleBackground';
+import EventBackground from '../../backgrounds/EventBackground';
 
 type ComponentProps = PageComponentProps &
     ProjectLayout & {
@@ -38,7 +38,7 @@ const Component: React.FC<ComponentProps> = (props) => {
     }, []);
 
     return (
-        <ParticleBackground>
+        <EventBackground>
             <BaseLayout {...props}>
                 <main id="main" className="sb-layout sb-project-layout">
                     <article className="px-4 py-14 lg:py-20">
@@ -94,7 +94,7 @@ const Component: React.FC<ComponentProps> = (props) => {
                     )}
                 </main>
             </BaseLayout>
-        </ParticleBackground>
+        </EventBackground>
     );
 };
 export default Component;

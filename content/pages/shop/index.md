@@ -2,13 +2,6 @@
 type: ProductFeedLayout
 title: "Shop \U0001F6D2"
 colors: colors-a
-backgroundImage:
-  type: BackgroundImage
-  url: /images/bg2.jpg
-  backgroundSize: cover
-  backgroundPosition: center
-  backgroundRepeat: no-repeat
-  opacity: 50
 productFeed:
   type: ProductFeedSection
   colors: colors-f

@@ -16,7 +16,7 @@ backgroundImage:
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat
-  opacity: 94
+  opacity: 75
 ---
 Last week I found myself in Bolzano, ready to start a bikepacking expedition with a group of people who shared my passion for riding bikes and had signed up for a big tour through the Dolomites. I didn’t question why they were there - it made perfect sense to me. What fascinated me more was the diversity of the riders, each coming from a completely different background. I met young riders, old riders, riders with no hair, riders with too much. Doctors, art dealers, students - people from all walks of life. Some had ultra-light setups with zero sleeping gear except for an emergency blanket, others were on old bikes loaded with bags full of tools for every possible situation, and some simply came with the mindset that they’d finish no matter what, regardless of gear or the condition of their bike. Someone even brought an old 26" MTB with rim brakes.
 

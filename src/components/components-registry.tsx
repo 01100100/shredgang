@@ -60,7 +60,6 @@ const components = {
     MediaGallerySection: dynamic(() => import('./sections/MediaGallerySection')),
     PostFeedSection: dynamic(() => import('./sections/PostFeedSection')),
     ProjectFeedSection: dynamic(() => import('./sections/ProjectFeedSection')),
-    ProductFeedSection: dynamic(() => import('./sections/ProductFeedSection')),
     RecentPostsSection: dynamic(() => import('./sections/RecentPostsSection')),
     RecentProjectsSection: dynamic(() => import('./sections/RecentProjectsSection')),
     QuoteSection: dynamic(() => import('./sections/QuoteSection')),

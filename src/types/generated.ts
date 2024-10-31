@@ -566,6 +566,18 @@ export type ProductFeedSection = BaseContentObject & {
     styles?: any;
 };
 
+export type Product = {
+    id: string; // Required
+    title: string;
+    description?: string;
+    date?: string;
+    price?: number;
+    weight_g?: number;
+    featuredImage: {
+        url: string;
+    };
+};
+
 export type ProjectLayout = BaseContentObject & {
     type: 'ProjectLayout';
     title: string;
