@@ -19,7 +19,7 @@ media:
 
 *Join us for a magical gravel ride to welcome the Winter Solstice, venturing through mysterious forests 🌲🚴‍♂️❄️*
 
-**Meet:** ⌚ Saturday 2023-12-21 07:30 @📍Berlin Hbf (or Berlin Ostkreuz)
+**Meet:** ⌚ Saturday 2024-12-21 07:30 @📍Berlin Hbf (or Berlin Ostkreuz)
 
 We'll ride through the shortest day and warm up by a fire in a cabin 🛖🔥 We stay overnight before returning to Berlin by train 🚆 on Sunday evening.
 

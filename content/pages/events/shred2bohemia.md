@@ -25,7 +25,7 @@ The Path Awaits! Join us! 🗺️
 
 Starting in Berlin and ending in the breathtaking vistas of Bohemia.Set up camp, stargaze, take the scenic route, and savor every pedal stroke.
 
-**Meet:** ⌚ Saturday 2023-12-21 07:30 @📍Brandenburg Tor, Berlin 🚴‍♂️  **C5 Checkpoints:**  
+**Meet:** ⌚ Saturday 2025-03-21 07:30 @📍Brandenburg Tor, Berlin 🚴‍♂️
 
 **No rush, no pressure:** 🏆 We’ll be handing out prizes not for speed, but for creativity, spirit, and the best stories. 🔥
 

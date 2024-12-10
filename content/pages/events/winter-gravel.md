@@ -2,7 +2,7 @@
 type: ProjectLayout
 title: Shredaholics Anonymous Winter Gravel Alley Cat
 colors: colors-a
-date: '2024-12-17'
+date: '2025-01-19'
 client: ''
 description: >-
   Get muddy on a treasure hunt through Brandenburgs finest forests. Shred season
@@ -23,7 +23,7 @@ media:
 
 Five secret checkpoints await. You’ll discover them only when the time is right. How you fare depends on both your luck and your legs. Will you defy the odds?
 
-**Meet:** ⌚ Saturday 2023-12-21 07:30 @ 📍 Treptower Park
+**Meet:** ⌚ Saturday 2025-01-19 12:30 @ 📍 Treptower Park
 
 We’ll gather infront of the Soviet Memorial and ride out together, the race only begins when we are in the trees. 🌲💨
 
