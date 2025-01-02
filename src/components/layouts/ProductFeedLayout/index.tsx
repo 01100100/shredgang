@@ -52,9 +52,14 @@ const Component: React.FC<ComponentProps> = (props) => {
                     )}
                     <Sections sections={topSections} />
                     <div className="flex items-center justify-center py-36">
-                        <h1 className="text-center text-4xl font-semibold coming-soon">
-                            Coming soon...
-                        </h1>
+                        <div className="max-w-2xl px-4 mx-auto">
+                            <h1 className="text-center text-xl font-semibold leading-relaxed coming-soon">
+                                Go out and ride your bike!
+                            </h1>
+                            <div className="text-center text-lg font-medium leading-relaxed mt-4">
+                                We have nothing to sell, not everything needs to be about money. Come along to one of our events, have fun and meet some lovely people.
+                            </div>
+                        </div>
                     </div>
                     <Sections sections={bottomSections} />
                 </main>
