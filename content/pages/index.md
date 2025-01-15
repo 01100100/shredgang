@@ -53,8 +53,6 @@ sections:
     showReadMoreLink: true
     variant: variant-d
     projects:
-      - content/pages/events/winter-gravel.md
-      - content/pages/events/winter-solstice.md
       - content/pages/events/shred2bohemia.md
     styles:
       self:
